@@ -1,2 +1,1 @@
-# effiziente-algorithmen-in-der-computergrafik
-Effiziente Algortihmen in der Computergrafik
+# Effiziente Algortihmen in der Computergrafik
