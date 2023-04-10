@@ -1,0 +1,5 @@
+.DS_Store
+cgx_*/bin/
+cgx_*/obj/
+.vscode/settings.json
+.vscode/c_cpp_properties.json
