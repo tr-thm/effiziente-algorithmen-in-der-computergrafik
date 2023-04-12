@@ -3,23 +3,13 @@
     "blocks": [
         {
             "type": "h",
-            "content": "Computergrafik: Effiziente Algorithmen",
+            "content": "Computergrafik: Effiziente Algorithmen 1",
             "uid": "BPgHmWhoYzkzPLY4zSzl5vTF21T5pvth"
         },
         {
             "type": "p",
             "content": "Herzlich Willkommen zum zweiten Master-Modul der Computergrafik an der Technischen Hochschule Mittelhessen. In diesem Semester erweitern wir unsere 3D Engine aus dem vorherigen Semester um eine Reihe von optimierten Verfahren und Algorithmen um das Projekt praxistauglich zu machen.",
             "uid": "1XIvYcRWWN9bvrbTgTOKdjSmm7s4WSfX"
-        },
-        {
-            "type": "p",
-            "content": " bold",
-            "uid": "rdzKHHNY0zpQHtuYFGia0W09tMBI2T1H"
-        },
-        {
-            "type": "h2",
-            "content": "Kapitel 1",
-            "uid": "1UH4uR3rMQ29ex9W3QD8pCtzidpB2s5c"
         },
         {
             "type": "i",
