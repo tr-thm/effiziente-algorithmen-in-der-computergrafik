@@ -28,7 +28,7 @@ void Window::onError(int error, const char *description)
     std::cout << "Error: " << description << std::endl;
 }
 
-GLFWmonitor* Window::getCurrentMonitor()
+GLFWmonitor *Window::getCurrentMonitor()
 {
     glfwGetWindowPos(window, &xpos, &ypos);
     glfwGetWindowSize(window, &width, &height);
@@ -37,7 +37,7 @@ GLFWmonitor* Window::getCurrentMonitor()
     GLFWmonitor **monitors = glfwGetMonitors(&monitorCount);
 
     int lastDelta = 0;
-    GLFWmonitor* monitor;
+    GLFWmonitor *monitor;
 
     for (int i = 0; i < monitorCount; i++)
     {
@@ -76,7 +76,7 @@ void Window::toggleFullscreen()
     }
     else
     {
-        GLFWmonitor* monitor = getCurrentMonitor();
+        GLFWmonitor *monitor = getCurrentMonitor();
         const GLFWvidmode *mode = glfwGetVideoMode(monitor);
         glfwSetWindowMonitor(window, monitor, 0, 0, mode->width, mode->height, mode->refreshRate);
     }
@@ -129,7 +129,7 @@ void Window::onMouseMoved(GLFWwindow *window, double xpos, double ypos)
     }
 }
 
-void Window::onMouseWheel(GLFWwindow* window, double xoffset, double yoffset)
+void Window::onMouseWheel(GLFWwindow *window, double xoffset, double yoffset)
 {
     if (isMouseCaptured)
     {
@@ -137,7 +137,7 @@ void Window::onMouseWheel(GLFWwindow* window, double xoffset, double yoffset)
     }
 }
 
-void Window::onMouseButton(GLFWwindow* window, int button, int action, int mods)
+void Window::onMouseButton(GLFWwindow *window, int button, int action, int mods)
 {
     if (!isMouseCaptured && action == GLFW_PRESS)
     {

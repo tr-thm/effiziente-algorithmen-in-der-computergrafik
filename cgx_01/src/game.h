@@ -41,5 +41,5 @@ class Game
         static inline Vector3 cameraRotation = Vector3::FromDegrees(63.6,  0.0, 46.7);
         static inline double walkSpeed = 3.0;
         static inline double mouseSpeed = 0.001;
-        static inline Scene* scene;
+        static inline Scene *scene;
 };

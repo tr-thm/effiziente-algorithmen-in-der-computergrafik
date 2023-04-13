@@ -30,13 +30,13 @@ class Window
 
     private:
         static void onError(int error, const char *description);
-        static GLFWmonitor* getCurrentMonitor();
+        static GLFWmonitor *getCurrentMonitor();
         static void toggleFullscreen();
         static void onKeyboardInput(GLFWwindow *window, int key, int scancode, int action, int mods);
         static void onFramebufferSizeChanged(GLFWwindow *window, int width, int height);
         static void onMouseMoved(GLFWwindow *window, double xpos, double ypos);
-        static void onMouseWheel(GLFWwindow* window, double xoffset, double yoffset);
-        static void onMouseButton(GLFWwindow* window, int button, int action, int mods);
+        static void onMouseWheel(GLFWwindow *window, double xoffset, double yoffset);
+        static void onMouseButton(GLFWwindow *window, int button, int action, int mods);
         static void printFps();
         static inline GLFWwindow *window;
         static inline int width, height, xpos, ypos;
