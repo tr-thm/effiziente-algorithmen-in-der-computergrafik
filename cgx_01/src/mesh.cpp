@@ -72,7 +72,7 @@ Mesh::Mesh(std::string filename)
         }
         vertices.push_back((Vertex){ v[values[0]], vt[values[1]], vn[values[2]] });
     }
-    init(reinterpret_cast<Vertex*>(vertices.data()), vertices.size());
+    init(vertices.data(), vertices.size());
 }
 
 void Mesh::init(Vertex *vertices, int vc)

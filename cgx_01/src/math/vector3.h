@@ -27,7 +27,7 @@ struct Vector3
     static Vector3 FromDegrees(float x, float y, float z);
 };
 
-Vector3 operator* (const Vector3& v, float f);
-Vector3 operator+ (const Vector3& a, const Vector3& b);
-Vector3 operator- (const Vector3& a, const Vector3& b);
-Vector3 operator- (const Vector3& a);
+Vector3 operator* (const Vector3 &v, float f);
+Vector3 operator+ (const Vector3 &a, const Vector3 &b);
+Vector3 operator- (const Vector3 &a, const Vector3 &b);
+Vector3 operator- (const Vector3 &a);

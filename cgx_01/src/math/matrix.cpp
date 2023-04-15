@@ -28,7 +28,7 @@ Matrix::Matrix()
     m14 = 0;  m24 = 0;  m34 = 0;  m44 = 1;
 }
 
-Matrix operator* (const Matrix& a, const Matrix& b)
+Matrix operator* (const Matrix &a, const Matrix &b)
 {
     Matrix m;
 
@@ -59,7 +59,7 @@ Matrix operator* (const Matrix& a, const Matrix& b)
     return m;
 }
 
-Matrix operator- (const Matrix& a)
+Matrix operator- (const Matrix &a)
 {
     Matrix m;
 
@@ -71,7 +71,7 @@ Matrix operator- (const Matrix& a)
     return m;
 }
 
-Vector3 operator* (const Matrix& m, const Vector3& v)
+Vector3 operator* (const Matrix &m, const Vector3 &v)
 {
     Vector3 result = {
         m.m11 * v.x + m.m21 * v.y + m.m31 * v.z,
@@ -81,7 +81,7 @@ Vector3 operator* (const Matrix& m, const Vector3& v)
     return result;
 }
 
-Matrix Matrix::translation(const Vector3& position)
+Matrix Matrix::translation(const Vector3 &position)
 {
     Matrix m;
     m.m11 = 1;  m.m21 = 0;  m.m31 = 0;  m.m41 = position.x;
@@ -91,7 +91,7 @@ Matrix Matrix::translation(const Vector3& position)
     return m;
 }
 
-Matrix Matrix::rotation(const Vector3& rotation)
+Matrix Matrix::rotation(const Vector3 &rotation)
 {
     float sx = sin(rotation.x);
     float sy = sin(rotation.y);
@@ -138,7 +138,7 @@ Matrix Matrix::rotationZ(float z)
     return m;
 }
 
-Matrix Matrix::scale(const Vector3& scale)
+Matrix Matrix::scale(const Vector3 &scale)
 {
     Matrix m;
     m.m11 = scale.x;  m.m21 = 0;        m.m31 = 0;        m.m41 = 0;

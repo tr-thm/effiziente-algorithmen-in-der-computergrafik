@@ -112,7 +112,7 @@ void Graphics::loop()
     
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    for (const auto& [key, model] : models)
+    for (const auto &[key, model] : models)
     {
         if (settings.depth && model->skipDepthTesting())
         {
@@ -129,7 +129,7 @@ void Graphics::loop()
 
 void Graphics::terminate()
 {
-    for (const auto& [key, model] : models)
+    for (const auto &[key, model] : models)
     {
         delete model;
     }

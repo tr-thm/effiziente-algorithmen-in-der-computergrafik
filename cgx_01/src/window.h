@@ -24,8 +24,8 @@
 class Window
 {
     public:
-        static bool create(Settings);
-        static bool loop(double*);
+        static bool create(Settings props);
+        static bool loop(double *time);
         static void destroy();
 
     private:

@@ -31,5 +31,5 @@ class Mesh
     private:
     unsigned int vertexAttributes, vertexBuffer;
     int vertexCount;
-    void init(Vertex*, int);
+    void init(Vertex *vertices, int vc);
 };

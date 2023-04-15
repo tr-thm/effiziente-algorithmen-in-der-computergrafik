@@ -20,7 +20,7 @@
 #include <string>
 #include "math/vector3.h"
 
-typedef void (*LogicFunction)(Vector3&, Vector3&, const double);
+typedef void (*LogicFunction)(Vector3 &position, Vector3 &rotation, const double time);
 
 static void earthRotation(Vector3 &position, Vector3 &rotation, const double time)
 {

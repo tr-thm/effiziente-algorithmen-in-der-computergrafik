@@ -29,9 +29,9 @@ class Shader
     Shader(std::string vertexShaderFile, std::string fragmentShaderFile);
     ~Shader();
     void activate();
-    void setMatrix(int, Matrix);
-    void setVector3(int, Vector3);
-    void setTexture(int, Texture*);
+    void setMatrix(int location, Matrix m);
+    void setVector3(int location, Vector3 v);
+    void setTexture(int location, Texture *texture);
     struct {
         int WorldMatrix;
         int ViewMatrix;

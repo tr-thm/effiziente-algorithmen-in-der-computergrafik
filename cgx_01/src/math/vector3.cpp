@@ -41,22 +41,22 @@ Vector3 Vector3::FromDegrees(float x, float y, float z)
     return v;
 }
 
-Vector3 operator* (const Vector3& v, float f)
+Vector3 operator* (const Vector3 &v, float f)
 {
     return (Vector3){v.x * f, v.y * f, v.z * f};
 }
 
-Vector3 operator+ (const Vector3& a, const Vector3& b)
+Vector3 operator+ (const Vector3 &a, const Vector3 &b)
 {
     return (Vector3){a.x + b.x, a.y + b.y, a.z + b.z};
 }
 
-Vector3 operator- (const Vector3& a, const Vector3& b)
+Vector3 operator- (const Vector3 &a, const Vector3 &b)
 {
     return (Vector3){a.x - b.x, a.y - b.y, a.z - b.z};
 }
 
-Vector3 operator- (const Vector3& a)
+Vector3 operator- (const Vector3 &a)
 {
     return Vector3(-a.x, -a.y, -a.z);
 }

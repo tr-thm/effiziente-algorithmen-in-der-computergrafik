@@ -56,7 +56,7 @@ Vector2 FileReader::getVector2()
         lineStream >> p1 >> p2;
         return (Vector2){stof(p1), stof(p2)};
     }
-    catch(const std::exception& e)
+    catch(const std::exception &e)
     {
         std::cerr << "Error in " << filename << " on line " << line << std::endl;
         std::cerr << e.what() << std::endl;
@@ -72,7 +72,7 @@ Vector3 FileReader::getVector3()
         lineStream >> p1 >> p2 >> p3;
         return (Vector3){stof(p1), stof(p2), stof(p3)};
     }
-    catch(const std::exception& e)
+    catch(const std::exception &e)
     {
         std::cerr << "Error in " << filename << " on line " << line << std::endl;
         std::cerr << e.what() << std::endl;
@@ -88,7 +88,7 @@ float FileReader::getFloat()
         lineStream >> p1;
         return stof(p1);
     }
-    catch(const std::exception& e)
+    catch(const std::exception &e)
     {
         std::cerr << "Error in " << filename << " on line " << line << std::endl;
         std::cerr << e.what() << std::endl;
