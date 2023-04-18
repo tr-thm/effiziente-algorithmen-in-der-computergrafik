@@ -26,10 +26,10 @@
 class Scene
 {
     public:
-    Scene(std::string filename);
-    ~Scene();
-    void update(const double time);
+        Scene(std::string filename);
+        ~Scene();
+        void update(const double time);
 
     private:
-    std::vector<Entity*> entities;
+        std::vector<Entity*> entities;
 };

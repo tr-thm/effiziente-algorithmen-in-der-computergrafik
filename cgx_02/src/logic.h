@@ -18,18 +18,17 @@
 
 #pragma once
 #include <string>
+#include "math/vector3.h"
 
-#include "math/vertex.h"
+typedef void (*LogicFunction)(Vector3 &position, Vector3 &rotation, const double time);
 
-class Mesh
+static void earthRotation(Vector3 &position, Vector3 &rotation, const double time)
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+    rotation.y += 0.0001f;
+}
 
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
-};
+static LogicFunction logicGetFunction(std::string name)
+{
+    if ("earthRotation" == name) return earthRotation;
+    return nullptr;
+}

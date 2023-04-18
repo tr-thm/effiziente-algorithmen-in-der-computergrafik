@@ -17,19 +17,29 @@
 */
 
 #pragma once
-#include <string>
+#include <vector>
 
-#include "math/vertex.h"
+#include "scene.h"
+#include "settings.h"
+#include "math/vector3.h"
 
-class Mesh
+class Game
 {
     public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+        static void setKey(int key, int state);
+        static bool getKey(int key);
+        static void setMouse(double dx, double dy, double sx, double sy);
+        static void pushScene(std::string filename);
+        static void popScene();
+        static void load(Settings settings);
+        static void loop(const double &time);
+        static void unload();
 
     private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+        static inline bool gameKeyState[384] = {};
+        static inline double mouseSpeed = 0.001;
+        static inline double scrollSpeed = 0.09;
+        static inline Scene *scene = nullptr;
+        static inline Entity *activeEntity = nullptr;
+        static inline int splash = 0;
 };

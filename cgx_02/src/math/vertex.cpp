@@ -16,20 +16,11 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#pragma once
-#include <string>
+#include "vertex.h"
 
-#include "math/vertex.h"
-
-class Mesh
+Vertex::Vertex(const Vector3 &pos, const Vector2 &texcoord, const Vector3 &normal)
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
-
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
-};
+    this->pos = pos;
+    this->texcoord = texcoord;
+    this->normal = normal;
+}

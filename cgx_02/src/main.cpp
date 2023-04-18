@@ -16,20 +16,34 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#pragma once
-#include <string>
+#include <iostream>
 
-#include "math/vertex.h"
+#include "game.h"
+#include "graphics.h"
+#include "settings.h"
+#include "window.h"
 
-class Mesh
+int main()
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+    std::cout << "Engine starting..." << std::endl;
 
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
-};
+    Settings settings;
+
+    if (Window::create(settings) && Graphics::start(settings))
+    {
+        Game::load(settings);
+        double dtime = 0;
+        while (Window::loop(&dtime))
+        {
+            Game::loop(dtime);
+            Graphics::loop();
+        }
+        Game::unload();
+        Graphics::terminate();
+        Window::destroy();
+    }
+
+    std::cout << "Engine terminated." << std::endl;
+
+    return 0;
+}

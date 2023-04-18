@@ -18,18 +18,23 @@
 
 #pragma once
 #include <string>
+#include <vector>
 
-#include "math/vertex.h"
+#include "entity.h"
+#include "environment.h"
 
-class Mesh
+class Scene
 {
     public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+        Scene(std::string filename);
+        ~Scene();
+        void update(const double time);
+        void switchEntity();
+        void switchCamera();
 
     private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+        Environment environment = {};
+        std::vector<Entity*> entities;
+        std::vector<Entity*> activeEntities;
+        int activeEntity = -1;
 };

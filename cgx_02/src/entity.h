@@ -20,6 +20,7 @@
 #include <string>
 #include <vector>
 
+#include "camera.h"
 #include "logic.h"
 #include "math/vector3.h"
 
@@ -34,16 +35,22 @@ class Entity
         void setScale(Vector3 scale);
         void addFlag(std::string flag);
         void addLogic(std::string logic);
+        void addCamera(Camera camera);
+        void setFocus(bool);
         void load();
         void update(double time);
+        void switchCamera();
 
     private:
-        int modelId;
-        std::string name;
-        std::string model;
-        Vector3 position;
-        Vector3 rotation;
+        int modelId = -1;
+        std::string name = "";
+        std::string model = "";
+        Vector3 position = Vector3();
+        Vector3 rotation = Vector3();
         Vector3 scale = Vector3(1,1,1);
+        int activeCamera = 0;
+        bool focus = false;
         std::vector<std::string> flags;
         std::vector<LogicFunction> logic;
+        std::vector<Camera> cameras;
 };

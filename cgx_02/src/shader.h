@@ -19,17 +19,32 @@
 #pragma once
 #include <string>
 
-#include "math/vertex.h"
+#include "texture.h"
+#include "math/matrix.h"
+#include "math/vector3.h"
 
-class Mesh
+class Shader
 {
     public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+    Shader(std::string vertexShaderFile, std::string fragmentShaderFile);
+    ~Shader();
+    void activate();
+    void setMatrix(int location, Matrix m);
+    void setVector3(int location, Vector3 v);
+    void setTexture(int location, Texture *texture);
+    struct {
+        int WorldMatrix;
+        int ViewMatrix;
+        int ProjectionMatrix;
+        int SunLight;
+        int CameraPos;
+        int Diffuse;
+        int NormalMap;
+        int Roughness;
+    } vars;
 
     private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+    unsigned int shaderProgram;
+    bool shaderCompile(std::string filename, unsigned int *shader, unsigned int type);
+    char *readFile(std::string filename);
 };

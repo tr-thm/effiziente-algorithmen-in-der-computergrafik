@@ -17,19 +17,15 @@
 */
 
 #pragma once
-#include <string>
 
-#include "math/vertex.h"
-
-class Mesh
+struct Settings
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
-
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+    bool fullscreen = false;
+    int width = 1280;
+    int height = 720;
+    bool msaa = true;
+    bool vsync = true;
+    bool culling = true;
+    bool depth = true;
+    double mouseSpeed = 1.0;
 };

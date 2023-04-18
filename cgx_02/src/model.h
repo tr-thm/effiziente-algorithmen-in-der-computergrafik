@@ -17,19 +17,33 @@
 */
 
 #pragma once
+#include <map>
 #include <string>
 
-#include "math/vertex.h"
+#include "mesh.h"
+#include "shader.h"
+#include "texture.h"
+#include "math/vector3.h"
 
-class Mesh
+class Model
 {
     public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+        Model(std::string filename);
+        ~Model();
+        void setTransform(Matrix m);
+        void toggleFlag(std::string flag);
+        void render(Vector3 sunLight);
+        bool skipDepthTesting();
 
     private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+        bool nodepth = false;
+        bool fixed = false;
+        Matrix worldMatrix;
+        Shader *shader;
+        Mesh *mesh;
+        struct {
+            Texture *Diffuse;
+            Texture *NormalMap;
+            Texture *Roughness;
+        } textures;
 };

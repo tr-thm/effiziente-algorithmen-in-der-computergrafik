@@ -17,19 +17,10 @@
 */
 
 #pragma once
-#include <string>
+#include "math/vector3.h"
 
-#include "math/vertex.h"
-
-class Mesh
+struct Environment
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
-
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+    Vector3 background;
+    Vector3 sun;
 };

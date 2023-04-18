@@ -17,19 +17,17 @@
 */
 
 #pragma once
-#include <string>
 
-#include "math/vertex.h"
-
-class Mesh
+struct Vector3
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
-
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+    float x, y, z;
+    Vector3();
+    Vector3(float x, float y, float z);
+    
+    static Vector3 FromDegrees(float x, float y, float z);
 };
+
+Vector3 operator* (const Vector3 &v, float f);
+Vector3 operator+ (const Vector3 &a, const Vector3 &b);
+Vector3 operator- (const Vector3 &a, const Vector3 &b);
+Vector3 operator- (const Vector3 &a);

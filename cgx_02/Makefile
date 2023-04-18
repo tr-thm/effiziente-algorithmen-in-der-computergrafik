@@ -16,7 +16,7 @@ else ifeq ($(findstring Linux,$(UNAME)),Linux)
 	OPT =
 endif
 
-bin/engine: obj/main.o obj/graphics.o obj/window.o obj/game.o obj/shader.o obj/mesh.o obj/texture.o obj/filereader.o obj/entity.o obj/model.o obj/scene.o obj/matrix.o obj/vector2.o obj/vector3.o obj/vertex.o | bin
+bin/engine: obj/main.o obj/graphics.o obj/window.o obj/game.o obj/shader.o obj/mesh.o obj/texture.o obj/filereader.o obj/entity.o obj/model.o obj/scene.o obj/matrix.o obj/vector2.o obj/vector3.o obj/vertex.o obj/camera.o | bin
 	@echo Building engine...
 	@g++ -g obj/*.o -o $@ $(LIB) $(LNK) $(OPT)
 
@@ -79,6 +79,10 @@ obj/vector3.o: src/math/vector3.* | obj
 obj/vertex.o: src/math/vertex.* | obj
 	@echo Compiling vertex.cpp...
 	@g++ -g -c src/math/vertex.cpp -o $@ $(INC) $(OPT)
+
+obj/camera.o: src/camera.cpp | obj
+	@echo Compiling camera.cpp...
+	@g++ -g -c src/camera.cpp -o $@ $(INC) $(OPT)
 
 bin:
 	@echo Creating bin...

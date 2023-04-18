@@ -16,20 +16,15 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#pragma once
-#include <string>
+#include "vector2.h"
 
-#include "math/vertex.h"
-
-class Mesh
+Vector2::Vector2()
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+    this->x = this->y = 0;
+}
 
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+Vector2::Vector2(float x, float y)
+{ 
+    this->x = x;
+    this->y = y;
 };

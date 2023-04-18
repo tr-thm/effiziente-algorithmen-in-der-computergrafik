@@ -17,19 +17,14 @@
 */
 
 #pragma once
-#include <string>
+#include "vector2.h"
+#include "vector3.h"
 
-#include "math/vertex.h"
-
-class Mesh
+struct Vertex
 {
-    public:
-        Mesh(std::string);
-        ~Mesh();
-        void draw();
+    Vector3 pos;
+    Vector2 texcoord;
+    Vector3 normal;
 
-    private:
-        unsigned int vertexAttributes, vertexBuffer;
-        int vertexCount;
-        void init(Vertex *vertices, int vc);
+    Vertex(const Vector3 &pos, const Vector2 &texcoord, const Vector3 &normal);
 };
