@@ -1,0 +1,22 @@
+env background 0.2 0.2 0.2
+env sun 0.577 -0.577 -0.577
+
+e Floor
+m models/plane.model
+p 0.0 0.0 -10.0
+c Camera1 fixed -18.7 -34.2 33.3 59.1 0 -29.1
+c Camera1 orbit 0 0 10 0 -90 50
+
+e Cube1
+m models/cuberef.model
+p -7.0 0.0 0.0
+r 0.0 0.0 0.0
+l earthRotation
+c Camera3 orbit 0 0 0 45 -45 20
+
+e Cube2
+m models/cuberef.model
+p 7.0 0.0 0.0
+r 0.0 0.0 0.0
+s 5.0 5.0 5.0
+c Camera4 orbit 0 0 0 45 -45 20

@@ -57,7 +57,7 @@ void Game::load(Settings settings)
 {
     mouseSpeed *= settings.mouseSpeed;
 
-    scene = new Scene("scenes/ref.scene");
+    scene = new Scene("scenes/simple.scene");
 }
 
 void Game::loop(const double &time)
