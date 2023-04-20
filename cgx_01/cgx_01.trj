@@ -1,4 +1,8 @@
 {
+    "about": {
+        "fileType": "Redvery Journal",
+        "moreInfo": "https://www.redvery.com/journal/"
+    },
     "meta": {},
     "blocks": [
         {
