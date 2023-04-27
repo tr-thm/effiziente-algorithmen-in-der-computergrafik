@@ -87,8 +87,6 @@ void Camera::update(Vector3 &entityPosition, Vector3 &entityRotation, const doub
         cameraPositionMatrix = -Matrix::translation(anchor) * -Matrix::translation(position);
 
         absolutePosition = entityPosition + Matrix::rotation(entityRotation) * anchor;
-
-        //std::cout << "Abs Pos " << absolutePosition.x << ":" << absolutePosition.y << ":" << absolutePosition.z << std::endl; 
     }
 
     viewMatrix = cameraRotationMatrix * cameraPositionMatrix * entityRotationMatrix * entityPositionMatrix;

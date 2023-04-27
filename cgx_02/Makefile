@@ -80,7 +80,7 @@ obj/vertex.o: src/math/vertex.* | obj
 	@echo Compiling vertex.cpp...
 	@g++ -g -c src/math/vertex.cpp -o $@ $(INC) $(OPT)
 
-obj/camera.o: src/camera.cpp | obj
+obj/camera.o: src/camera.* | obj
 	@echo Compiling camera.cpp...
 	@g++ -g -c src/camera.cpp -o $@ $(INC) $(OPT)
 
