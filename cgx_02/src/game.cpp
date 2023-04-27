@@ -28,7 +28,7 @@
 
 void Game::setKey(int key, int state)
 {
-    //A=65; S=83; D=68; W=87; SPACE=32; LSHIFT=340; Q=81; E=69;
+    //A=65; S=83; D=68; W=87; SPACE=32; LSHIFT=340; LCTRL=341; Q=81; E=69;
     //J=74; K=75; L=76; U=85; O=79
     gameKeyState[key] = state > 0;
     std::cout << "key:" << key << "; state=" << state << std::endl;

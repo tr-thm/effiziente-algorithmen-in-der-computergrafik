@@ -1,0 +1,3 @@
+m meshes/landingpad.obj
+s shaders/vertex_shader_lit.glsl shaders/fragment_shader_lit.glsl
+t Diffuse textures/landingpad_diffuse.jpg

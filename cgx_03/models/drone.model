@@ -1,0 +1,5 @@
+m meshes/drone.obj
+s shaders/vertex_shader_lit.glsl shaders/fragment_shader_lit_drn.glsl
+t Diffuse textures/drone_diffuse.png
+t Roughness textures/drone_roughness.png
+t NormalMap textures/drone_normal.png
