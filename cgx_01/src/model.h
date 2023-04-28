@@ -41,11 +41,11 @@ class Model
         Vector3 position;
         Vector3 rotation;
         Vector3 scale;
-        Shader *shader;
-        Mesh *mesh;
+        Shader *shader = nullptr;
+        Mesh *mesh = nullptr;
         struct {
-            Texture *Diffuse;
-            Texture *NormalMap;
-            Texture *Roughness;
+            Texture *Diffuse = nullptr;
+            Texture *NormalMap = nullptr;
+            Texture *Roughness = nullptr;
         } textures;
 };

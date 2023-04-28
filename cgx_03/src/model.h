@@ -39,11 +39,11 @@ class Model
         bool nodepth = false;
         bool fixed = false;
         Matrix worldMatrix;
-        Shader *shader;
-        Mesh *mesh;
+        Shader *shader = nullptr;
+        Mesh *mesh = nullptr;
         struct {
-            Texture *Diffuse;
-            Texture *NormalMap;
-            Texture *Roughness;
+            Texture *Diffuse = nullptr;
+            Texture *NormalMap = nullptr;
+            Texture *Roughness = nullptr;
         } textures;
 };

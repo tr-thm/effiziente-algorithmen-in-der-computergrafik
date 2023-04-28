@@ -87,9 +87,9 @@ void Model::setTransform(Matrix m)
 
 Model::~Model()
 {
-    delete mesh;
-    delete shader;
-    delete textures.Diffuse;
-    delete textures.NormalMap;
-    delete textures.Roughness;
+    if (mesh != nullptr)               delete mesh;
+    if (shader != nullptr)             delete shader;
+    if (textures.Diffuse != nullptr)   delete textures.Diffuse;
+    if (textures.NormalMap != nullptr) delete textures.NormalMap;
+    if (textures.Roughness != nullptr) delete textures.Roughness;
 }
