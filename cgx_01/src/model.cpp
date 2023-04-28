@@ -97,9 +97,9 @@ void Model::setTransform(Vector3 position, Vector3 rotation, Vector3 scale)
 
 Model::~Model()
 {
-    if (mesh != nullptr)               delete mesh;
-    if (shader != nullptr)             delete shader;
-    if (textures.Diffuse != nullptr)   delete textures.Diffuse;
-    if (textures.NormalMap != nullptr) delete textures.NormalMap;
-    if (textures.Roughness != nullptr) delete textures.Roughness;
+    delete mesh;
+    delete shader;
+    delete textures.Diffuse;
+    delete textures.NormalMap;
+    delete textures.Roughness;
 }
