@@ -16,6 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+#include "camera.h"
 #include "filereader.h"
 #include "graphics.h"
 #include "scene.h"
@@ -56,7 +57,10 @@ Scene::Scene(std::string filename)
         }
         else if (type == "r")
         {
-            entities[entities.size() - 1]->setRotation(Vector3::FromDegrees(reader.getFloat(), reader.getFloat(), reader.getFloat()));
+            float x = reader.getFloat();
+            float y = reader.getFloat();
+            float z = reader.getFloat();
+            entities[entities.size() - 1]->setRotation(Vector3::FromDegrees(x, y, z));
         }
         else if (type == "s")
         {
@@ -78,15 +82,18 @@ Scene::Scene(std::string filename)
             c.setPosition(reader.getVector3());
             if (ctype == "fixed")
             {
-                c.setRotation(Vector3::FromDegrees(reader.getFloat(), reader.getFloat(), reader.getFloat()));
-                //c.setLimits(reader.getVector2(), reader.getVector2(), reader.getVector2());
+                float x = reader.getFloat();
+                float y = reader.getFloat();
+                float z = reader.getFloat();
+                c.setRotation(Vector3::FromDegrees(x, y, z));
             }
             else if (ctype == "orbit")
             {
-                Vector3 rotation = Vector3::FromDegrees(reader.getFloat(), reader.getFloat(), 0);
+                float x = reader.getFloat();
+                float y = reader.getFloat();
+                Vector3 rotation = Vector3::FromDegrees(x, y, 0);
                 rotation.z = reader.getFloat();
                 c.setRotation(rotation);
-                //c.setLimits(reader.getVector2(), reader.getVector2(), reader.getVector2());
             }
             entities[entities.size() - 1]->addCamera(c);
             if (!active)

@@ -57,7 +57,10 @@ Scene::Scene(std::string filename)
         }
         else if (type == "r")
         {
-            entities[entities.size() - 1]->setRotation(Quaternion::rotation(Vector3::FromDegrees( reader.getFloat(), reader.getFloat(), reader.getFloat() )));
+            float x = reader.getFloat();
+            float y = reader.getFloat();
+            float z = reader.getFloat();
+            entities[entities.size() - 1]->setRotation(Quaternion::rotation(Vector3::FromDegrees(x, y, z)));
         }
         else if (type == "s")
         {
@@ -79,11 +82,16 @@ Scene::Scene(std::string filename)
             c.setPosition(reader.getVector3());
             if (ctype == "fixed")
             {
-                c.setRotation(Vector3::FromDegrees(reader.getFloat(), reader.getFloat(), reader.getFloat()));
+                float x = reader.getFloat();
+                float y = reader.getFloat();
+                float z = reader.getFloat();
+                c.setRotation(Vector3::FromDegrees(x, y, z));
             }
             else if (ctype == "orbit")
             {
-                Vector3 rotation = Vector3::FromDegrees(reader.getFloat(), reader.getFloat(), 0);
+                float x = reader.getFloat();
+                float y = reader.getFloat();
+                Vector3 rotation = Vector3::FromDegrees(x, y, 0);
                 rotation.z = reader.getFloat();
                 c.setRotation(rotation);
             }
