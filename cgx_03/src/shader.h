@@ -26,25 +26,25 @@
 class Shader
 {
     public:
-    Shader(std::string vertexShaderFile, std::string fragmentShaderFile);
-    ~Shader();
-    void activate();
-    void setMatrix(int location, Matrix m);
-    void setVector3(int location, Vector3 v);
-    void setTexture(int location, Texture *texture);
-    struct {
-        int WorldMatrix;
-        int ViewMatrix;
-        int ProjectionMatrix;
-        int SunLight;
-        int CameraPos;
-        int Diffuse;
-        int NormalMap;
-        int Roughness;
-    } vars;
+        Shader(std::string vertexShaderFile, std::string fragmentShaderFile);
+        ~Shader();
+        void activate();
+        void setMatrix(int location, Matrix m);
+        void setVector3(int location, Vector3 v);
+        void setTexture(int location, Texture *texture);
+        struct {
+            int WorldMatrix;
+            int ViewMatrix;
+            int ProjectionMatrix;
+            int SunLight;
+            int CameraPos;
+            int Diffuse;
+            int NormalMap;
+            int Roughness;
+        } vars;
 
     private:
-    unsigned int shaderProgram;
-    bool shaderCompile(std::string filename, unsigned int *shader, unsigned int type);
-    char *readFile(std::string filename);
+        unsigned int shaderProgram;
+        bool shaderCompile(std::string filename, unsigned int *shader, unsigned int type);
+        char *readFile(std::string filename);
 };

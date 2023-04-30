@@ -29,8 +29,6 @@ class Game
         static void setKey(int key, int state);
         static bool getKey(int key);
         static void setMouse(double dx, double dy, double sx, double sy);
-        static void pushScene(std::string filename);
-        static void popScene();
         static void load(Settings settings);
         static void loop(const double &time);
         static void unload();
