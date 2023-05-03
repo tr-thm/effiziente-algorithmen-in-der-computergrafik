@@ -1,0 +1,8 @@
+env background 1 1 1
+env sun 0 0 0
+
+e Splash
+m models/splash.model
+p 0.0 0.0 0.0
+r 0.0 0.0 0.0
+c Camera fixed 0 -3 0 90 0 0

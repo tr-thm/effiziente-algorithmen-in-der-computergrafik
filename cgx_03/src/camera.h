@@ -31,7 +31,6 @@ class Camera
         void setType(std::string type);
         void setPosition(Vector3 position);
         void setRotation(Vector3 rotation);
-        void setLimits(Vector2 yawLimit, Vector2 pitchLimit, Vector2 distLimit);
         bool isOrbiting();
         void update(Vector3 &entityPosition, Quaternion &entityRotation, const double time);
         std::string getName();
@@ -49,9 +48,6 @@ class Camera
         std::string type;
         Vector3 position;
         Vector3 rotation;
-        Vector2 yawLimit;
-        Vector2 pitchLimit;
-        Vector2 distLimit;
 
         static inline Camera *activeCamera = nullptr;
         static inline Matrix projectionMatrix = Matrix();

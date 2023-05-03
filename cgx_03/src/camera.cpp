@@ -41,13 +41,6 @@ void Camera::setRotation(Vector3 rotation)
     this->rotation = rotation;
 }
 
-void Camera::setLimits(Vector2 yawLimit, Vector2 pitchLimit, Vector2 distLimit)
-{
-    this->yawLimit = yawLimit;
-    this->pitchLimit = pitchLimit;
-    this->distLimit = distLimit;
-}
-
 std::string Camera::getName()
 {
     return name;

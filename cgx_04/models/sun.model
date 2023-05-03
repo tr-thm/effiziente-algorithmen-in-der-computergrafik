@@ -1,0 +1,3 @@
+m meshes/sphere.obj
+s shaders/vertex_shader.glsl shaders/fragment_shader.glsl
+t Diffuse textures/white.png
