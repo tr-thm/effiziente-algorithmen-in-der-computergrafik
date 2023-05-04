@@ -27,18 +27,18 @@
 class Timer
 {
     public:
-    Timer(std::string name)
-    {
-        this->name = name;
-        this->start = std::chrono::steady_clock::now();
-    }
-    void stop()
-    {
-        double now = glfwGetTime();
-        std::cout << "Timer: " << this->name << " = " << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - this->start).count() << " ms. Elapsed = " << now << " s." << std::endl;
-    }
+        Timer(std::string name)
+        {
+            this->name = name;
+            this->start = std::chrono::steady_clock::now();
+        }
+        void stop()
+        {
+            double now = glfwGetTime();
+            std::cout << "Timer: " << this->name << " = " << std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now() - this->start).count() << " ms. Elapsed = " << now << " s." << std::endl;
+        }
 
     private:
-    std::string name;
-    std::chrono::steady_clock::time_point start;
+        std::string name;
+        std::chrono::steady_clock::time_point start;
 };
