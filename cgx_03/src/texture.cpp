@@ -41,7 +41,11 @@ Texture::Texture(std::string filename)
     unsigned char *data = stbi_load(filename.c_str(), &ww, &hh, &nrChannels, 0);
     if (data)
     {
-        if (nrChannels == 3)
+        if (nrChannels == 1)
+        {
+            glTexImage2D(GL_TEXTURE_2D, 0, GL_RED, ww, hh, 0, GL_RED, GL_UNSIGNED_BYTE, data);
+        }
+        else if (nrChannels == 3)
         {
             glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, ww, hh, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
         }
