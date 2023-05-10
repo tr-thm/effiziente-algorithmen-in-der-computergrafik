@@ -1,0 +1,145 @@
+{
+    "about": {
+        "fileType": "Redvery Journal",
+        "moreInfo": "https://www.redvery.com/journal/"
+    },
+    "meta": {},
+    "blocks": [
+        {
+            "type": "h",
+            "content": "Computergrafik: Effiziente Algorithmen 5",
+            "uid": "hi9A7xjMTgo926fUE8xqcPWKljohDQeY"
+        },
+        {
+            "type": "h2",
+            "content": "Texturkompression",
+            "uid": "mWGd1tWodvvtkm9uGgt3Z6dwNW92LT0a"
+        },
+        {
+            "type": "p",
+            "content": "Unter Texturkompression versteht man die Verwendung von Kompressionsverfahren um Bilder möglichst effizient zu speichern. Hierbei wird unterschieden zwischen verlustbehafteten (lossy) Verfahren und verlustfreien (lossless) Verfahren.",
+            "uid": "bijWVXsAReXBnxZtVI3iDMxTO6WEVBPP"
+        },
+        {
+            "type": "p",
+            "content": "Ich Bereich der 3D Grafik verfolgen Entwickler damit meist eines oder mehrere der folgenden Ziele:",
+            "uid": "qot3f9j7fJHqVXwkAAQMlOezDhymmamc"
+        },
+        {
+            "type": "ul",
+            "content": "Reduktion des Speicherbedarfs von Grafiken auf der Festplatte\nReduktion der Ladezeiten von 3D Anwendungen\nReduktion des Speicherbedarfs im GPU Speicher",
+            "uid": "ZoYNlhAzMkrJqwzoXp733dYpc8ov29ic"
+        },
+        {
+            "type": "p",
+            "content": "Die genauen Ziele hängen von vielen Faktoren ab. Bei mobile Applikationen kann beispielsweise die Downloadgröße eine wichtige Rolle spielen. Bei PC- oder Konsolenspiele kann die Auswahl bestimmter Formate evtl. zu einer Hardwarebeschleunigung beim Dekodieren führen.",
+            "uid": "VgfIqnlNeo2qaZ0GZYwK1qEKajjZIx8A"
+        },
+        {
+            "type": "h3",
+            "content": "Spezielle Dateiformate",
+            "uid": "bwyQB0DZI7VbhKmNmFBic5i96WsSyQKJ"
+        },
+        {
+            "type": "p",
+            "content": "Während Bildformate wie [JPEG](https://en.wikipedia.org/wiki/JPEG), [PNG](https://en.wikipedia.org/wiki/PNG) oder [WebP](https://en.wikipedia.org/wiki/WebP) in anderen Bereichen etabliert sind, bringt deren Verwendung in Spielen zum Teil einige Nachteile mit sich.",
+            "uid": "ViaIlFvvOmiGBIutfFbgM0vGH4Up9doi"
+        },
+        {
+            "type": "p",
+            "content": "Im Umfeld der 3D Grafik werden daher häufig spezielle Dateiformate eingesetzt um Grafiken zu komprimieren. Bekannte Formate sind z.B. [S3TC](https://en.wikipedia.org/wiki/S3_Texture_Compression), [ETC](https://en.wikipedia.org/wiki/Ericsson_Texture_Compression) oder [PVRTC](https://en.wikipedia.org/wiki/PVRTC).",
+            "uid": "xSsuM4DFvahYN6RfchsBZJbzGFkSwIXB"
+        },
+        {
+            "type": "p",
+            "content": "Mit den Besonderheiten dieser Formate beschäftigt sich dieses Kapitel.",
+            "uid": "ptyP6mwQxgOqPicxeOUcwZiosBtY7Aka"
+        },
+        {
+            "type": "h2",
+            "content": "S3TC im Detail",
+            "uid": "VgINZoizGsFF2jghCq6p9SW4jJadkLZV"
+        },
+        {
+            "type": "p",
+            "content": "Das S3TC Format kennt man evtl. auch unter der Bezeichnung `DXT1`, `DXT3` oder `DXT5` oder von der typischen Dateiendung `.dds`. Dieses Format bietet Hardwarebeschleunigte Dekodierung auf so gut wie allen GPUs und ist seit seiner Aufnahme in DirectX 6.0 fester Bestandteil der populären APIs.",
+            "uid": "U8TQEcBUU4owxzbcEDZArL06xKhtarsb"
+        },
+        {
+            "type": "p",
+            "content": "Um Bilder im .dds Format zu speichern gibt es entsprechende dedizierte Tools oder auch Add-Ons für Software wie GIMP oder Photoshop. Die freie Grafikbibliothek ImageMagick unterstützt das Format ebenfalls, die Qualität der Ergebnisse kann allerdings mit den Ergebnissen kommerzieller Lösungen nicht mithalten.",
+            "uid": "qimPTLvEIypNrYRIIPXtEzTVzbu6xh6n"
+        },
+        {
+            "type": "p",
+            "content": "Die Texturen unseres Projektes wurden mit ImageMagick mit dem folgenden Befehl konvertiert:",
+            "uid": "zaGKaReieNlAqvzHXxmatrkqTjBNcyrd"
+        },
+        {
+            "type": "c",
+            "content": "convert input.png -define dds:mipmaps=-1 -define dds:compression=dxt5 -define dds:cluster-fit=true output.dds",
+            "uid": "UddFlLSvvx2MQYbB3TuN6ULZVngf2F9c"
+        },
+        {
+            "type": "h2",
+            "content": "Aufgaben",
+            "uid": "NuK833jj5cZdqSXYTlz0IgqAr29p5vwR"
+        },
+        {
+            "type": "h4",
+            "content": "1. Performance Analyse fertigstellen",
+            "uid": "XEnR5GYzkhCw5eqmSJfBbV19f6BgTLFM"
+        },
+        {
+            "type": "p",
+            "content": "**1.1:** Starten Sie die überarbeitete Engine aus Kapitel 5 und ergänzen Sie Ihre Analysen von Kapitel 4 um die neuen Ladezeiten mit komprimierten Texturen.",
+            "uid": "XIPEcMLg1VdGy9HLeQM5xlSmnANay3w5"
+        },
+        {
+            "type": "p",
+            "content": "**1.2:** Vergleichen Sie den Speicherbedarf der Texturen von Kapitel 4 mit dem Speicherbedarf der Texturen von Kapitel 5 sowohl auf der Festplatte als auch im GPU Speicher und fügen Sie auch diese Ergebnisse in die Analyse hinzu.",
+            "uid": "ddbVxFhPwiwhfgexxv4PKzpu4WKmQEvk"
+        },
+        {
+            "type": "p",
+            "content": "**1.3:** Vergleichen Sie auch die Qualität der Texturen. Betrachten Sie dazu bitte nicht nur die hier mitgelieferten Texturen sondern nutzen Sie das Internet um einen besseren Eindruck zu gewinnen, wieviel Qualität bei Verwendung eines professionellen Encoders möglich ist.",
+            "uid": "ODNYGqqKSXyLd5IXlWTV9mwD3MkQ6SeK"
+        },
+        {
+            "type": "h4",
+            "content": "2. S3TC erklären",
+            "uid": "PVmioQZ4drr6iGN4S5UiK2ANbMj55vGR"
+        },
+        {
+            "type": "p",
+            "content": "**2.1:** Machen Sie sich mit dem S3TC Format vertraut. Ein guter Einstieg ist die englische Wikipedia Seite, die im Gegensatz zur deutschen auch Details zur Implementierung enthält. Den Link finden Sie weiter oben. Schaffen Sie es den grundsätzlichen Algorithmus von DXT1 mit maximal 3 Sätzen und einer Grafik zu erklären?",
+            "uid": "JtdpgKM2idmDNMdvlYMTfX05K2gQRRe8"
+        },
+        {
+            "type": "p",
+            "content": "**2.2:** Mit Ihrem Wissen über den Algorithmus, beurteilen Sie Ihre Ergebnisse aus der Performance Analyse kritisch. Welche Vorteile entstehen durch die Verwendung von .dds Dateien? Welche Nachteile entstehen? Welche(s) Dateiformat(e) würden Sie einem jungen Indie Entwickler empfehlen, dessen Engine entweder JPEG, PNG oder DXTn unterstützt und warum?",
+            "uid": "Xdar0UxqrAKl8UljyqyHMrj2dPxTtMBg"
+        },
+        {
+            "type": "h4",
+            "content": "3. Konkrete Lösungen",
+            "uid": "BE8xYSmp2QXEpgbXxvuyIjoG76dd2lMk"
+        },
+        {
+            "type": "p",
+            "content": "**3.1:** Sie sollen eine Möglichkeit schaffen, dass der Spieler in den Einstellungen die Texturauflösung verändern kann. Definieren Sie einen Lösungsansatz und begründen Sie Ihre Entscheidung.",
+            "uid": "9hO2mMyp2J5xzJLAK2kiTPbhmKEkcyZq"
+        },
+        {
+            "type": "p",
+            "content": "**3.2:** Sie wollen den Funktionsumfang von Kapitel 4 bzw. Kapitel 5 als fertiges Spiel veröffentlichen. Ihr Publisher ist allerdings mit der langen Ladezeit von Kapitel 4 und der Downloadgröße von Kapitel 5 unzufrieden. Entwickeln Sie für beide Varianten jeweils eine Lösungsstrategie um dennoch zu einer Einigung zu kommen.",
+            "uid": "LnVKkov8ew6vXADh27KeamrftCu8jLGI"
+        },
+        {
+            "type": "p",
+            "content": "Sind Ihre Lösungsstrategien innovativ oder war es die erste Idee die Ihnen eingefallen ist?",
+            "uid": "7OE9dW3NIgaCahzv4ob9Hys1SUW2iANz"
+        }
+    ],
+    "files": {}
+}

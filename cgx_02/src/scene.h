@@ -33,7 +33,7 @@ class Scene
         void switchCamera();
 
     private:
-        Environment environment = {};
+        Environment environment;
         std::vector<Entity*> entities;
         std::vector<Entity*> activeEntities;
         int activeEntity = -1;

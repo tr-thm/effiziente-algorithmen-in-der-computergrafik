@@ -1,0 +1,5 @@
+m meshes/cube.obj
+s shaders/vertex_shader_lit.glsl shaders/fragment_shader_lit_drn.glsl
+t Diffuse textures/cube_diffuse.dds
+t NormalMap textures/cube_normal.dds
+t Roughness textures/cube_roughness.dds
