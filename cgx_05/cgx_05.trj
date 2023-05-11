@@ -17,12 +17,12 @@
         },
         {
             "type": "p",
-            "content": "Unter Texturkompression versteht man die Verwendung von Kompressionsverfahren um Bilder möglichst effizient zu speichern. Hierbei wird unterschieden zwischen verlustbehafteten (lossy) Verfahren und verlustfreien (lossless) Verfahren.",
+            "content": "Unter Texturkompression versteht man die Verwendung von Kompressionsverfahren um Bilder möglichst effizient zu speichern. Hierbei wird unterschieden zwischen verlustbehafteten (lossy) und verlustfreien (lossless) Verfahren.",
             "uid": "bijWVXsAReXBnxZtVI3iDMxTO6WEVBPP"
         },
         {
             "type": "p",
-            "content": "Ich Bereich der 3D Grafik verfolgen Entwickler damit meist eines oder mehrere der folgenden Ziele:",
+            "content": "Im Bereich der 3D Grafik verfolgen Entwickler damit meist eines oder mehrere der folgenden Ziele:",
             "uid": "qot3f9j7fJHqVXwkAAQMlOezDhymmamc"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "type": "p",
-            "content": "Die genauen Ziele hängen von vielen Faktoren ab. Bei mobile Applikationen kann beispielsweise die Downloadgröße eine wichtige Rolle spielen. Bei PC- oder Konsolenspiele kann die Auswahl bestimmter Formate evtl. zu einer Hardwarebeschleunigung beim Dekodieren führen.",
+            "content": "Die genauen Ziele hängen von vielen Faktoren ab. Bei mobile Applikationen kann beispielsweise die Downloadgröße eine wichtige Rolle spielen. Bei PC- oder Konsolenspielen kann die Auswahl bestimmter Formate evtl. zu einer Hardwarebeschleunigung beim Dekodieren führen.",
             "uid": "VgfIqnlNeo2qaZ0GZYwK1qEKajjZIx8A"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "type": "p",
-            "content": "Während Bildformate wie [JPEG](https://en.wikipedia.org/wiki/JPEG), [PNG](https://en.wikipedia.org/wiki/PNG) oder [WebP](https://en.wikipedia.org/wiki/WebP) in anderen Bereichen etabliert sind, bringt deren Verwendung in Spielen zum Teil einige Nachteile mit sich.",
+            "content": "Während Bildformate wie [JPEG](https://en.wikipedia.org/wiki/JPEG), [PNG](https://en.wikipedia.org/wiki/PNG) oder [WebP](https://en.wikipedia.org/wiki/WebP) in vielen Bereichen etabliert sind, bringt deren Verwendung in Spielen zum Teil einige Nachteile mit sich.",
             "uid": "ViaIlFvvOmiGBIutfFbgM0vGH4Up9doi"
         },
         {
@@ -62,7 +62,7 @@
         },
         {
             "type": "p",
-            "content": "Das S3TC Format kennt man evtl. auch unter der Bezeichnung `DXT1`, `DXT3` oder `DXT5` oder von der typischen Dateiendung `.dds`. Dieses Format bietet Hardwarebeschleunigte Dekodierung auf so gut wie allen GPUs und ist seit seiner Aufnahme in DirectX 6.0 fester Bestandteil der populären APIs.",
+            "content": "Das S3TC Format kennt man evtl. auch unter der Bezeichnung `DXT1`, `DXT3` oder `DXT5` oder von der typischen Dateiendung `.dds`. Dieses Format bietet Hardwarebeschleunigte Dekodierung auf so gut wie allen GPUs und ist seit seiner Aufnahme in den DirectX 6.0 Standard, fester Bestandteil der populären APIs.",
             "uid": "U8TQEcBUU4owxzbcEDZArL06xKhtarsb"
         },
         {
@@ -117,7 +117,7 @@
         },
         {
             "type": "p",
-            "content": "**2.2:** Mit Ihrem Wissen über den Algorithmus, beurteilen Sie Ihre Ergebnisse aus der Performance Analyse kritisch. Welche Vorteile entstehen durch die Verwendung von .dds Dateien? Welche Nachteile entstehen? Welche(s) Dateiformat(e) würden Sie einem jungen Indie Entwickler empfehlen, dessen Engine entweder JPEG, PNG oder DXTn unterstützt und warum?",
+            "content": "**2.2:** Mit Ihrem Wissen über den Algorithmus, beurteilen Sie Ihre Ergebnisse aus der Performance Analyse kritisch. Welche Vorteile entstehen durch die Verwendung von .dds Dateien? Welche Nachteile entstehen? Welche(s) Dateiformat(e) würden Sie einem jungen Indie-Entwickler empfehlen, dessen Engine entweder JPEG, PNG oder DXTn unterstützt und warum?",
             "uid": "Xdar0UxqrAKl8UljyqyHMrj2dPxTtMBg"
         },
         {
@@ -127,7 +127,7 @@
         },
         {
             "type": "p",
-            "content": "**3.1:** Sie sollen eine Möglichkeit schaffen, dass der Spieler in den Einstellungen die Texturauflösung verändern kann. Definieren Sie einen Lösungsansatz und begründen Sie Ihre Entscheidung.",
+            "content": "**3.1:** Sie sollen eine Möglichkeit schaffen, dass der Spieler in den Einstellungen eines Spiels die Texturauflösung/Texturqualität verändern kann. Definieren Sie einen Lösungsansatz und begründen Sie Ihre Entscheidung.",
             "uid": "9hO2mMyp2J5xzJLAK2kiTPbhmKEkcyZq"
         },
         {
