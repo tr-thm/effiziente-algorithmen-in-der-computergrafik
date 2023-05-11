@@ -57,8 +57,8 @@ unsigned int Texture::getId()
 void Texture::load()
 {
     glActiveTexture(GL_TEXTURE15);
-    glGenTextures(1, &this->textureId);
-    glBindTexture(GL_TEXTURE_2D, this->textureId);
+    glGenTextures(1, &textureId);
+    glBindTexture(GL_TEXTURE_2D, textureId);
 
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_BASE_LEVEL, 0);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LEVEL, mipMapCount - 1);
@@ -95,8 +95,8 @@ void Texture::load()
 
 Texture::~Texture()
 {
-    glDeleteTextures(1, &this->textureId);
-    this->textureId = 0;
+    glDeleteTextures(1, &textureId);
+    textureId = 0;
 }
 
 Texture* Texture::acquire(std::string filename)

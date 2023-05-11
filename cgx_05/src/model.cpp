@@ -30,14 +30,14 @@ Model::Model(std::string filename)
         {
             //mesh
             std::string m = reader.getString();
-            this->mesh = Mesh::acquire(m);
+            mesh = Mesh::acquire(m);
         }
         else if (type == "s")
         {
             //shader
             std::string vs = reader.getString();
             std::string fs = reader.getString();
-            this->shader = Shader::acquire(vs, fs);
+            shader = Shader::acquire(vs, fs);
         }
         else if (type == "t")
         {
@@ -46,15 +46,15 @@ Model::Model(std::string filename)
             std::string filename = reader.getString();
             if (slot == "Diffuse")
             {
-                this->textures.Diffuse = Texture::acquire(filename);
+                textures.Diffuse = Texture::acquire(filename);
             }
             else if (slot == "NormalMap")
             {
-                this->textures.NormalMap = Texture::acquire(filename);
+                textures.NormalMap = Texture::acquire(filename);
             }
             else if (slot == "Roughness")
             {
-                this->textures.Roughness = Texture::acquire(filename);
+                textures.Roughness = Texture::acquire(filename);
             }
         }
     }
@@ -65,7 +65,7 @@ void Model::render(Vector3 sunLight)
     shader->activate();
 
     shader->setMatrix(shader->vars.ProjectionMatrix, Camera::getProjectionMatrix());
-    shader->setMatrix(shader->vars.ViewMatrix, Camera::getViewMatrix(this->fixed));
+    shader->setMatrix(shader->vars.ViewMatrix, Camera::getViewMatrix(fixed));
     shader->setMatrix(shader->vars.WorldMatrix, worldMatrix);
     shader->setVector3(shader->vars.SunLight, sunLight);
     shader->setVector3(shader->vars.CameraPos, Camera::getPosition());
@@ -84,13 +84,13 @@ bool Model::skipDepthTesting()
 
 void Model::toggleFlag(std::string flag)
 {
-    if (flag == "fixed") this->fixed = !this->fixed;
-    if (flag == "nodepth") this->nodepth = !this->nodepth;
+    if (flag == "fixed") fixed = !fixed;
+    if (flag == "nodepth") nodepth = !nodepth;
 }
 
 void Model::setTransform(Matrix m)
 {
-    this->worldMatrix = m;
+    worldMatrix = m;
 }
 
 Model::~Model()

@@ -101,15 +101,15 @@ void Mesh::init()
     glEnableVertexAttribArray(1);
     glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, sizeof(Vertex), (void*)(sizeof(Vector3) + sizeof(Vector2)));
     glEnableVertexAttribArray(2);
-    delete this->vertices;
-    this->vertices = nullptr;
+    delete vertices;
+    vertices = nullptr;
 }
 
 void Mesh::draw()
 {
-    if (this->vertices) this->init();
+    if (vertices) init();
     glBindVertexArray(vertexAttributes);
-    glBindBuffer(GL_ARRAY_BUFFER, this->vertexBuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer);
     glDrawArrays(GL_TRIANGLES, 0, vertexCount);
 }
 
