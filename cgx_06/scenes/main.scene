@@ -1,0 +1,63 @@
+env sun 0.66 -0.66 -0.33
+
+e Stars
+m models/cubemap.model
+p 0.0 0.0 0.0
+r 0.0 0.0 0.0
+f fixed
+f nodepth
+
+e sun
+m models/sun.model
+p -10.0 10.0 5.0
+s 0.5 0.5 0.5
+f fixed
+f nodepth
+
+e Earth
+m models/earth.model
+p 9 6 0
+r 0 0 180
+f fixed
+f nodepth
+l earthRotation
+
+e LandingPad
+m models/landingpad.model
+p 0 0 0
+r 0 0 0
+c Cam2 fixed -12 -12 6 70 0 -45
+c Cam1 fixed 20.339 -19.157 13.182 63.6 0.0 46.7
+
+e cube1
+m models/cube.model
+s 0.5 0.5 0.5
+p 4.8 -7.5 -1.2
+r 0.0 0.0 -11.1
+
+e cube2
+m models/cube.model
+s 0.5 0.5 0.5
+p 6.0 -7.2 -1.2
+r 0 0 18
+
+e cube3
+m models/cube.model
+s 0.5 0.5 0.5
+p 5.8 -8.4 -1.2
+r 0 0 5.6
+
+e cube4
+m models/cube.model
+s 0.5 0.5 0.5
+p 5.4 -7.8 -0.2
+r 0 0 60.8
+
+e Drone
+m models/drone.model
+p 0.0 0.0 0.0
+r 0.0 0.0 0.0
+l shipControl
+l physics
+c Cockpit fixed -10.0 0.0 1.0 90.0 0.0 -90.0
+c External orbit 0 0 0 -131 -13.47 10

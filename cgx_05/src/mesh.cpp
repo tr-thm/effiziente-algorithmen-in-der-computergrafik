@@ -87,7 +87,6 @@ Mesh::Mesh(std::string filename)
 
 void Mesh::init()
 {
-    vertexCount = vertices->size();
     glGenVertexArrays(1, &vertexAttributes);
     glBindVertexArray(vertexAttributes);
 

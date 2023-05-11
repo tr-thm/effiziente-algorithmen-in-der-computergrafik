@@ -1,0 +1,5 @@
+m meshes/sphere.obj
+s shaders/vertex_shader_lit.glsl shaders/fragment_shader_lit.glsl
+t Diffuse textures/earth_diffuse.dds
+t Roughness textures/earth_roughness.dds
+t NormalMap textures/earth_normal.dds
