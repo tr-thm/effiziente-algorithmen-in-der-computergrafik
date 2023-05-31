@@ -1,4 +1,5 @@
 .DS_Store
+Thumbs.db
 cgx_*/bin/
 cgx_*/obj/
 .vscode/settings.json

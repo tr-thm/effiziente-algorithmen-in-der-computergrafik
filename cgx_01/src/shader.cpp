@@ -90,21 +90,21 @@ void Shader::setTexture(int location, Texture *texture)
 
     if (location == vars.Diffuse)
     {
-            glUniform1i(location, 0);
-            glActiveTexture(GL_TEXTURE0);
-            glBindTexture(GL_TEXTURE_2D, texture->Id);
+        glUniform1i(location, 0);
+        glActiveTexture(GL_TEXTURE0);
+        glBindTexture(GL_TEXTURE_2D, texture->Id);
     }
     else if (location == vars.NormalMap)
     {
-            glUniform1i(location, 1);
-            glActiveTexture(GL_TEXTURE1);
-            glBindTexture(GL_TEXTURE_2D, texture->Id);
+        glUniform1i(location, 1);
+        glActiveTexture(GL_TEXTURE1);
+        glBindTexture(GL_TEXTURE_2D, texture->Id);
     }
     else if (location == vars.Roughness)
     {
-            glUniform1i(location, 2);
-            glActiveTexture(GL_TEXTURE2);
-            glBindTexture(GL_TEXTURE_2D, texture->Id);
+        glUniform1i(location, 2);
+        glActiveTexture(GL_TEXTURE2);
+        glBindTexture(GL_TEXTURE_2D, texture->Id);
     }
 }
 

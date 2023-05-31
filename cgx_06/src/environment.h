@@ -21,6 +21,6 @@
 
 struct Environment
 {
-    Vector3 background = Vector3(0,0,0);
-    Vector3 sun = Vector3(0,0,-1);
+    Vector3 background;
+    Vector3 sun;
 };

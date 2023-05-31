@@ -1,0 +1,3 @@
+m meshes/plane.obj
+s shaders/vertex_shader.glsl shaders/fragment_shader.glsl
+t Diffuse textures/thm2k.dds

@@ -1,0 +1,165 @@
+{
+    "about": {
+        "fileType": "Redvery Journal",
+        "moreInfo": "https://www.redvery.com/journal/"
+    },
+    "meta": {},
+    "blocks": [
+        {
+            "type": "h",
+            "content": "Computergrafik: Effiziente Algorithmen 6",
+            "uid": "HbznmjG9pjwD6YGI35A6hxIWEdjZ9AY7"
+        },
+        {
+            "type": "h2",
+            "content": "Indexed Rendering",
+            "uid": "Ks9zEqwQY6LODoJHCPMc9JH5VW2hSLdq"
+        },
+        {
+            "type": "p",
+            "content": "Indexed Rendering ist eine Technik um das Rendern komplexer Modelle oder Szenen zu optimieren. Erreicht wird dies durch eine Reduktion der Datenmenge die zur Verarbeitung an die GPU gesendet wird.",
+            "uid": "B0VPSt5m8mV6u42yQJU5GRjLS92DWjHX"
+        },
+        {
+            "type": "p",
+            "content": "Bisher haben wir beim Rendern von Objekten für jedes Dreieck eines Modells jeweils alle 3 Eckpunkte an die GPU gesendet. Bei aneinander angrenzenden Dreiecken führt dies dazu, dass die Eckpunkte die in mehreren Dreiecken enthalten sind, für jedes Dreieck erneut an die GPU gesendet werden.",
+            "uid": "hzDoMMMGvGaqo7zFtcOb3xLIRgObdsgH"
+        },
+        {
+            "type": "p",
+            "content": "Beim sog. \"indizierten Rendern\" wird jedem Vertex eine eindeutige ID zugewiesen. Jedes Vertex wird dann nur noch genau einmal an die GPU gesendet. Beim Rendern wird lediglich eine Liste von IDs übermittelt und die GPU sucht anhand der ID den passenden Vertex aus der Liste heraus.",
+            "uid": "HzsRLZf6NKTVeJj2jXbGGn58ZabE8A94"
+        },
+        {
+            "type": "p",
+            "content": "Dieser Ansatz kann die Datenmenge, die an die GPU gesendet wird, erheblich reduzieren und die Rendering-Leistung verbessern, da weniger doppelte Eckpunkte und Primitive verarbeitet werden müssen.",
+            "uid": "Qr8JaUTBAZMFEzGStRg3y00MTSEbFeuL"
+        },
+        {
+            "type": "h3",
+            "content": "Es gibt auch noch Instanced Rendering",
+            "uid": "iW9jsZePggJjwlKEwdrPww2nUSJo2AAJ"
+        },
+        {
+            "type": "p",
+            "content": "Instanced Rendering ist eine weitere Optimierungstechnik. Sie ermöglicht es, dasselbe Objekt in einem einzigen Zeichenaufruf mehrfach mit unterschiedlichen Parametern zu zeichnen. Diese Technik wird häufig für das Rendering komplexer Partikelsysteme, großer Menschenmengen oder der Vegetation in Außenszenen verwendet.",
+            "uid": "ggA1msjppMyfyBehs6eBwtQCZ8qlsIO2"
+        },
+        {
+            "type": "p",
+            "content": "Indexed Rendering und Instanced Rendering sind zwei verschiedene Techniken, die zur Optimierung des Renderings in unterschiedlichen Szenarien eingesetzt werden. Indiziertes Rendering wird verwendet, um die an die GPU gesendete Datenmenge durch die Wiederverwendung gemeinsam genutzter Vertices zu reduzieren, während instanziertes Rendering verwendet wird, um die Anzahl der Zeichenaufrufe zu reduzieren, die zum Rendern vieler Instanzen desselben Objekts erforderlich sind.",
+            "uid": "R7YPdvgXjGi2ebtNKRtjsPDTLnIMW6II"
+        },
+        {
+            "type": "p",
+            "content": "Es ist jedoch möglich, indiziertes Rendering und instanziertes Rendering zu kombinieren, um noch größere Leistungsverbesserungen zu erzielen. Sie können zum Beispiel indiziertes Rendering verwenden, um die an die GPU gesendete Datenmenge zu reduzieren, und dann Instanzierung verwenden, um mehrere Instanzen desselben Objekts mit unterschiedlichen Parametern in einem einzigen Zeichenaufruf effizient zu rendern.",
+            "uid": "e6gBeTitMGeXsRRbDmJB6hTSyIBwU7Zl"
+        },
+        {
+            "type": "p",
+            "content": "Unsere Engine verwendet nur Indexed Rendering.",
+            "uid": "nrZJxtER4QSGuff05vtf4BFQ8g3WKNVe"
+        },
+        {
+            "type": "h2",
+            "content": "Aufgaben",
+            "uid": "WHK1B3KW72daU9k8b3oEONRDeC7tpoKV"
+        },
+        {
+            "type": "h4",
+            "content": "1. Machen Sie sich mit dem Indexed Rendering vertraut",
+            "uid": "KDwWjpuGo5kh44Lh2CfXplOoWZB7sAmF"
+        },
+        {
+            "type": "p",
+            "content": "**1.1:** Holen Sie sich die aktuelle Version des Codes von GitHub und verschaffen Sie sich einen Überblick über die Änderungen.",
+            "uid": "a0NxDFEJAvwYjYZNf9HGb1ZYTpcOfFYs"
+        },
+        {
+            "type": "p",
+            "content": "**1.2:** Wie erkennt die Engine welche Vertices identisch sind?",
+            "uid": "xB6Yi1wIa3vRHYCib0TobErLbGpIb454"
+        },
+        {
+            "type": "p",
+            "content": "**1.3:** Welche Art von Modellen profitiert von dieser Optimierung und bei welcher Art von Modellen ergeben sich evtl. kaum Vorteile? Für diese Frage lohnt sich ein Rückblick in die Grundlagen der Computergrafik und die verschiedenen Shading Methoden beim Erstellen von Modellen.",
+            "uid": "EkoYoELUB00RIMi7mckwGASQjKVc28Tz"
+        },
+        {
+            "type": "h4",
+            "content": "2. Erarbeiten Sie konkrete Zahlen zu Laufzeiten und Speicherverbrauch",
+            "uid": "bz3E7Szl2JpY1qPgxIjBv6B4xlZgCYqw"
+        },
+        {
+            "type": "p",
+            "content": "**2.1:** In diesem Kapitel liegen Ihnen 6 verschiedene Modelle vor. Finden Sie heraus wieviele Vertices jedes Modell hat und wieviele davon laut dem verwendeten Algorithmus als \"doppelt\" klassifiziert werden.",
+            "uid": "QdL9HxN1UPEnISMJTP0xfD6aNfm4h3mx"
+        },
+        {
+            "type": "p",
+            "content": "**2.2:** Analysieren Sie die Größe der Bufferobjekte und ermitteln Sie wie sich die Größen vor und nach dieser Optimierung unterscheiden.",
+            "uid": "eCtJnOKDQfh5pn6M0OayjDMwmDp0pYql"
+        },
+        {
+            "type": "h4",
+            "content": " 3. Konkrete Anwendung",
+            "uid": "izZ8z5YBEHlf5Cb1k4leXYTJSADoLRsd"
+        },
+        {
+            "type": "p",
+            "content": "**3.1:** Erstellen Sie sich eine Test-Scene und erhöhen Sie schrittweise die Anzahl der gerenderten Objekte. Ab wann lässt sich ein Unterschied in der Framerate ermitteln? Denken Sie daran V-Sync in den Settings auszuschalten.",
+            "uid": "BxXcW2orxmo88Sv5YIAQ875mfw3KoWBQ"
+        },
+        {
+            "type": "p",
+            "content": "**3.2:** Wie ist der Zusammenhang zwischen der Anzahl der Objekte und deren Einfluss auf die Framerate? Linear? Exponentiell? Unterscheidet sich das **auf Ihrem Computer** zwischen Indexed Rendering und klassischem Rendern?",
+            "uid": "aJ51fFb6MEQa59ZBozNBjQNz1AvHpjOM"
+        },
+        {
+            "type": "p",
+            "content": "**3.3:** Können Sie ungefähr abschätzen welche Auswirkungen die zusätzliche Implementierung von Instanced Rendering haben könnte?",
+            "uid": "xk3nmM2JT114yA64jbq1EUEBErom4nVj"
+        },
+        {
+            "type": "h3",
+            "content": "Ende dieses Themenblocks",
+            "uid": "wXAhBluzAQ5H4x6ORwXSvAI2LRbbsCxf"
+        },
+        {
+            "type": "p",
+            "content": "Dieses Kapitel schließt den Themenblock der Leistungsoptimerung ab. Es lohnt sich daher an dieser Stelle nochmal die Kapitel 4, 5 und 6 gemeinsam zu betrachten.",
+            "uid": "zXOF8VzISTVLkxJnSKlqn4W2HrpaU0Pu"
+        },
+        {
+            "type": "p",
+            "content": "Wir haben verschiedene Methoden kennengelernt um die Ladezeit von Ressourcen zu erhöhen und wir haben verschiedene Methoden kennengelernt um den Rendervorgang zu optimieren.",
+            "uid": "zWjfCXf83bkUHKLYCB2g8S0GwRp9OGpU"
+        },
+        {
+            "type": "p",
+            "content": "In einer Prüfung ist durchaus davon auszugehen, dass diese Themen fließend ineinander übergehen. Überlegen Sie sich daher mal ob sie mit der folgenden Frage etwas anfangen könnten.",
+            "uid": "J2OAraDkHGXI48FXSLtvbFfz1cARqldd"
+        },
+        {
+            "type": "h4",
+            "content": "Prüfungsfrage",
+            "uid": "wxmKnu1AF6l3orRYRYy9759vdUeOpxCk"
+        },
+        {
+            "type": "p",
+            "content": "Sie bekommen den Auftrag eine 3D Engine zu entwickeln mit deren Hilfe ein Echtzeit Flug durch einen 3D generierten Seltersweg möglich sein soll. Die Software soll später auf den dort installierten Stelen laufen. [Siehe Bild](https://ekiosk.com/outdoor-stelen-fuer-den-seltersweg-in-giessen/) Die Hardware hat Ihre Grenzen. Unity kommt nicht in Frage. Eine auf die Hardware optimierte OpenGL Lösung ist laut Hersteller praktikabel.",
+            "uid": "w44N3h3rq5K19KZroydy2uIzP9S8TuDT"
+        },
+        {
+            "type": "p",
+            "content": "Es gibt bereits hochwertige 3D Modellen und Texturen. Die Stadt hat sogar bereits einen Prototypen entwickeln lassen. Leider ist der Prototyp sehr langsam. Ladezeiten und Framerate sind miserabel.",
+            "uid": "xW8qteeV8EyeGfy40d041cENinD4YwZu"
+        },
+        {
+            "type": "p",
+            "content": "Halten Sie das Projekt für realisierbar? Falls ja, welche Aspekte der Umsetzung bedürfen besonderer Aufmerksamkeit?",
+            "uid": "oi2tmkI3MpgQ1J6DqJZopAE0m0Q66iIz"
+        }
+    ],
+    "files": {}
+}

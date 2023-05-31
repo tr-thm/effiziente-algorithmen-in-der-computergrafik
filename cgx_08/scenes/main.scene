@@ -1,0 +1,7 @@
+env background 0.0 0.0 0.0
+env sun 0.66 -0.66 -0.33
+env sky textures/p1.dds
+
+e Item1
+m models/item1.model
+c External orbit 0 0 0 -131 -13.47 10

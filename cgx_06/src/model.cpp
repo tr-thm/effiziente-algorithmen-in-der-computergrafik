@@ -73,7 +73,7 @@ void Model::render(Vector3 sunLight)
     shader->setTexture(shader->vars.Diffuse, textures.Diffuse);
     shader->setTexture(shader->vars.NormalMap, textures.NormalMap);
     shader->setTexture(shader->vars.Roughness, textures.Roughness);
-    
+
     mesh->draw();
 }
 
