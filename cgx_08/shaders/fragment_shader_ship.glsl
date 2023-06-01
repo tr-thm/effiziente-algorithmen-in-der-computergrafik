@@ -69,6 +69,7 @@ void main()
     color = mix(color, color_dirt, dirt);
 
     //calculate ambient and diffuse lighting
+    vec3 viewDir = normalize(fs_in.TangentCameraPosition - fs_in.TangentFragmentPosition);
     vec3 lightDir = normalize(-fs_in.TangentLightDirection);
     float lightIntensity = occlusion * 0.1 + 0.9 * max(dot(lightDir, normal), 0.0);
     color = color * color_light * lightIntensity;
