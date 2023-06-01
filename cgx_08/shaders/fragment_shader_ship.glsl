@@ -42,7 +42,7 @@ void main()
     normal.z = 1 - (normal.x * normal.x + normal.y * normal.y) / 2;
     
     // mirror normal along Y-axis if texture is mirrored
-    if (fs_in.TextureCoordinate.x < 0) normal.y = -normal.y;
+    if (fs_in.TextureCoordinate.x > 1) normal.y = -normal.y;
     
     float occlusion = texture(NOM, fs_in.TextureCoordinate).b;
 
