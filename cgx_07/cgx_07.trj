@@ -28,7 +28,7 @@
         },
         {
             "type": "p",
-            "content": "Bisher haben wir den Hintergrund der Szene - die sog. SkyBox - mit Hilfe eines ganz normalen Modells gezeichnet. OpenGL bietet allerdings auch die Möglichkeiten einen speziellen Sampler Type `samplerCube` zu verwenden welcher genau für diesen Anwendungsfall optimiert ist.",
+            "content": "Bisher haben wir den Hintergrund der Szene - die sog. SkyBox - mit Hilfe eines ganz normalen Modells gezeichnet. OpenGL bietet allerdings auch die Möglichkeit einen speziellen Sampler Type `samplerCube` zu verwenden welcher genau für diesen Anwendungsfall optimiert ist.",
             "uid": "7q4WAB5yJCqiE6v8HWGDPnTu0pjxLE0V"
         },
         {

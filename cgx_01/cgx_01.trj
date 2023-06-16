@@ -28,18 +28,48 @@
         },
         {
             "type": "h2",
+            "content": "Ziel dieses Moduls: Ihr eigenes Projekt",
+            "uid": "PjI8pwIsZBhfBfS0DCUhU7PvUxXK4ndZ"
+        },
+        {
+            "type": "p",
+            "content": "Dieses Modul verbindet drei verschiedene Themenbereiche miteinander. Es werden grundlegende Konzepte der Informatik wiederholt, Grundlagen der physikalischen Simulation implementiert und spezielle Algorithmen der Computergrafik eingeführt.",
+            "uid": "Xz171HtRbQerwazrSFJvOEcQQyOMwmgY"
+        },
+        {
+            "type": "p",
+            "content": "In jedem Kapitel gibt es einen Teil der Inhalte bereits als fertige Lösung für Sie zum Erkunden und Ausprobieren. Einen weiteren Teil der Inhalte erarbeiten Sie selbst in Form von Aufgaben die Sie am Ende jedes Kapitels finden. Zusammen haben Sie damit alle Tools in der Hand um eine komplexe 3D Simulation zu entwickeln.",
+            "uid": "i79auuyl9iJFEPn8xsZfiRJ0YU4GjScw"
+        },
+        {
+            "type": "p",
+            "content": "Für einen optimalen Lernerfolg empfehle ich Ihnen ein eigenes Projekt anzulegen und Ihre Ergebnisse der einzelnen Kapitel in Ihr persönliches Projekt zu übernehmen. Auf diese Weise können Sie im Laufe des Kurses ein eigenes Computerspiel ganz nach Ihren Wünschen erstellen und gestalten.",
+            "uid": "rNA21BKP1aXlOrIZwIlfHIv5axaz5xzz"
+        },
+        {
+            "type": "p",
+            "content": "Bei dieser Vorgehensweise haben Sie (hoffentlich) den meisten Spaß am Thema und sind hinterher fit in der Materie.",
+            "uid": "lM59H0B4nd9jlQIZ1O9Pxuik9CkBdvx7"
+        },
+        {
+            "type": "h2",
             "content": "Einleitung",
             "uid": "L4NcnTVk0mQoJLklUvgXtlbTz2ewfzqV"
         },
         {
             "type": "p",
-            "content": "Die Grafikengine mit der wir in diesem Kurs arbeiten, ist ein Fork der Engine aus dem vorherigen Modul. Wenn Sie das vorherige Modul besucht haben, werden Ihnen Aufbau und Struktur bekannt vorkommen. Dennoch hat sich einiges geändert.",
+            "content": "Die Grafikengine mit der wir in diesem Kurs arbeiten, ist ein Fork der Engine aus dem [vorherigen Modul](https://www.tobias-reimann.com/thm/computergrafik/). Wenn Sie das vorherige Modul besucht haben, werden Ihnen Aufbau und Struktur bekannt vorkommen. Dennoch hat sich einiges geändert.",
             "uid": "qebmxf1LMMVyONEdoTPbg8kPBS5XMuoZ"
         },
         {
             "type": "p",
-            "content": "In diesem Kapitel wollen wir uns mit diesen Änderungen kritisch auseinander setzen.",
+            "content": "In diesem Kapitel wollen wir uns mit diesen Änderungen kritisch auseinander setzen. Versuchen Sie sich einen guten Überblick über Aufbau und Struktur des Projektes zu verschaffen und betrachten Sie kritisch was Sie für sinnvoll erachten und was Sie anpassen würden.",
             "uid": "o0rCoc8HmesCTKOBKMErnQ4dbRRN0xxp"
+        },
+        {
+            "type": "p",
+            "content": "**Hinweis zur Prüfung:** Im Gegensatz zu allen nachfolgenden Kapiteln, wird dieses Kapitel nicht eigenständig in der Prüfung behandelt. Kapitel 1 dient als Einführung in die 3D Engine. In den folgenden Kapiteln werden wir die hier vorgestellte 3D Engine schrittweise erweitern und optimieren. Ein tiefes Verständnis dieses Kapitels ist daher notwendig um die folgenden Kapitel sinnvoll bearbeiten zu können.  ",
+            "uid": "7ZR80nct0oh3av0W4RN872FNlyWHe3fX"
         },
         {
             "type": "h3",

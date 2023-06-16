@@ -3,4 +3,4 @@ s shaders/vertex_shader_lit.glsl shaders/fragment_shader_lit_drn.glsl
 t Diffuse textures/item1_diffuse.dds
 t NormalMap textures/item1_normal.dds
 t Roughness textures/item1_roughness.dds
-t CubeMap textures/p1.dds
+t CubeMap textures/p1_g1.dds

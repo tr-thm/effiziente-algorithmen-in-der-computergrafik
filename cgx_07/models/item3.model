@@ -1,6 +1,0 @@
-m meshes/item1.obj
-s shaders/vertex_shader_lit.glsl shaders/fragment_shader_reflect.glsl
-t Diffuse textures/item1_diffuse.dds
-t NormalMap textures/item1_normal.dds
-t Roughness textures/item1_roughness.dds
-t CubeMap textures/stars_r.dds
