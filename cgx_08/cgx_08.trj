@@ -42,8 +42,8 @@
             "uid": "hO7UE8NGgP7yhHq1VPp9Bijn7ILs7Aw9"
         },
         {
-            "type": "h2",
-            "content": "Aufgaben",
+            "type": "h3",
+            "content": "Aufgabe",
             "uid": "7PQrCRffX2jmQMSan781mk9WiYRSaiYD"
         },
         {
@@ -63,13 +63,28 @@
         },
         {
             "type": "p",
-            "content": "Über dieses Thema werden wir ausführlich in der Veranstaltung am 1. Juni 2023 reden.",
+            "content": "Ausführliche Erklärung zu diesem Thema finden Sie in [diesem Artikel auf LearnOpenGL](https://learnopengl.com/Advanced-Lighting/Normal-Mapping) aber auch in der Dokumentation Ihrer bevorzugten Game Engine. Hier z.B. der [Link zur Cryengine Doku](https://docs.cryengine.com/display/SDKDOC4/Tangent+Space+Normal+Mapping)",
             "uid": "npiHzZgUhiBUhCqedcQhWDhgVjjkpjDM"
         },
         {
             "type": "p",
-            "content": "Ein Code-Beispiel dazu liefere ich in den nächsten beiden Wochen noch nach. In unserem neuen Shader `*_ship.glsl` findet dieses Verfahren bereits Anwendung.",
+            "content": "Unsere `Vertex` Klasse ist ab Kapitel 8 mit der Logik ausgestattet um die Tangenten zu errechnen und an die Shader zu übergeben.",
+            "uid": "JPInTeFbuPUV9dOSsnOiXTMsgZJBNv8k"
+        },
+        {
+            "type": "p",
+            "content": "In unserem neuen Shader `shader_ship.glsl` findet dieses Verfahren bereits Anwendung. Im `shader_lit_drn.glsl` nutzen wir aktuell noch Normal Maps in Objektkoordinaten.",
             "uid": "C52BrSXpOFDifvOavTg1ZmxiCsWMK8Jt"
+        },
+        {
+            "type": "h3",
+            "content": "Aufgabe (optional)",
+            "uid": "8BFse85cGbFZZMB4faBWYCiXgDUTj6Wa"
+        },
+        {
+            "type": "p",
+            "content": "**8.2:** Unter `/textures/item1_normal_ts.dds` finden Sie eine neue Normal Map für `Item1` im Tangent Space. Erstellen Sie einen neuen Shader für `Item1` der diese neue Normal Map verwendet. Eine fertige Implentierung finden Sie im `shader_ship.glsl`. Diese Aufgabe soll dabei helfen das Normal Map Konzept nochmal isoliert zu betrachten bevor Sie an den komplexeren Shader in der nächsten Aufgabe gehen. Wenn Ihnen das Konzept bereits geläufig ist, können Sie diese Aufgabe gerne überspringen.",
+            "uid": "h5F24z6GIRptqjnQuGDPc3u3tKHp364F"
         },
         {
             "type": "i",
@@ -89,18 +104,13 @@
         },
         {
             "type": "p",
-            "content": "Auch über dieses Thema werden wir ausführlich am 1. Juni reden. Alles was Sie an Wissen benötigen erkläre ich Ihnen personlich.",
+            "content": "Über dieses Thema haben wir ausführlich in der Veranstaltung am 1. Juni geredet. Heute erhalten Sie den passenden Shader um Raumschiffe zu zeichnen.",
             "uid": "BjKaI9HmqAxz8zNaW51GhBx7uPuwo2SO"
         },
         {
             "type": "p",
-            "content": "Hier ist der Link zum Dev Blog falls Sie diesen in der Veranstaltung verpasst haben:",
+            "content": "Hier ist der Link zum Dev Blog falls Sie diesen in der Veranstaltung verpasst haben: [EVE Online Dev Blog zum Thema Shader](https://www.eveonline.com/de/news/view/the-many-additions-of-v5plusplus)",
             "uid": "EKQggbVBXM2U2uwlyEryRtgstAGI9pl5"
-        },
-        {
-            "type": "p",
-            "content": "[EVE Online Dev Blog zum Thema Shader](https://www.eveonline.com/de/news/view/the-many-additions-of-v5plusplus)",
-            "uid": "Hc8XLSpnXK5hs7Il54oNa1thg3Hn10yu"
         },
         {
             "type": "p",
@@ -114,12 +124,12 @@
         },
         {
             "type": "p",
-            "content": "**8.2:** Erstellen Sie einen vernünftigen Ship Shader incl. Reflektionen.",
+            "content": "**8.3:** Erstellen Sie einen vernünftigen Ship Shader incl. Reflektionen. Das Konzept der Reflektionen ist in `fragment_shader_lit_drn.glsl` von Kapitel 8 in einer möglichen Variante umgesetzt. Allerdings sind die beiden Verfahren nicht kompatibel, weil die Normalenvektoren sich unterscheiden.",
             "uid": "hSuozgIIGdgFSUObDF72pW5Xmlv3Nc1M"
         },
         {
             "type": "p",
-            "content": "**8.3:** Schaffen Sie eine Möglichkeit Schiffe per `.model` Konfigurationsdatei umlackieren zu können.",
+            "content": "**8.4:** Schaffen Sie eine Möglichkeit Schiffe per `.model` Konfigurationsdatei umlackieren zu können. Ziel ist es zwei Schiffe anzuzeigen, die den gleichen Shader Code verwenden aber unterschiedliche Farben haben.",
             "uid": "P88hmZPUG95mwMHTstbpny8sCLZpROjh"
         }
     ],
