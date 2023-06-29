@@ -1,0 +1,6148 @@
+env sun 0.66 -0.66 -0.33
+env sky textures/p1.dds
+
+e Sphere1
+m models/sphere2.model
+p 48 48 0
+l shipControl
+c External orbit 0.0 0.0 0.0 45 45 10
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-0
+m models/sphere.model
+p 0 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-1
+m models/sphere.model
+p 0 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-2
+m models/sphere.model
+p 0 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-3
+m models/sphere.model
+p 0 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-4
+m models/sphere.model
+p 0 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-5
+m models/sphere.model
+p 0 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-6
+m models/sphere.model
+p 0 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-7
+m models/sphere.model
+p 0 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-8
+m models/sphere.model
+p 0 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-9
+m models/sphere.model
+p 0 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-10
+m models/sphere.model
+p 0 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-11
+m models/sphere.model
+p 0 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-12
+m models/sphere.model
+p 0 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-13
+m models/sphere.model
+p 0 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-14
+m models/sphere.model
+p 0 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-15
+m models/sphere.model
+p 0 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-16
+m models/sphere.model
+p 0 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-17
+m models/sphere.model
+p 0 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-18
+m models/sphere.model
+p 0 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-19
+m models/sphere.model
+p 0 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-20
+m models/sphere.model
+p 0 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-21
+m models/sphere.model
+p 0 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-22
+m models/sphere.model
+p 0 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-23
+m models/sphere.model
+p 0 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-24
+m models/sphere.model
+p 0 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-25
+m models/sphere.model
+p 0 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-26
+m models/sphere.model
+p 0 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-27
+m models/sphere.model
+p 0 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-28
+m models/sphere.model
+p 0 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-29
+m models/sphere.model
+p 0 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-30
+m models/sphere.model
+p 0 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_0-31
+m models/sphere.model
+p 0 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-0
+m models/sphere.model
+p 3 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-1
+m models/sphere.model
+p 3 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-2
+m models/sphere.model
+p 3 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-3
+m models/sphere.model
+p 3 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-4
+m models/sphere.model
+p 3 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-5
+m models/sphere.model
+p 3 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-6
+m models/sphere.model
+p 3 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-7
+m models/sphere.model
+p 3 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-8
+m models/sphere.model
+p 3 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-9
+m models/sphere.model
+p 3 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-10
+m models/sphere.model
+p 3 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-11
+m models/sphere.model
+p 3 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-12
+m models/sphere.model
+p 3 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-13
+m models/sphere.model
+p 3 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-14
+m models/sphere.model
+p 3 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-15
+m models/sphere.model
+p 3 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-16
+m models/sphere.model
+p 3 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-17
+m models/sphere.model
+p 3 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-18
+m models/sphere.model
+p 3 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-19
+m models/sphere.model
+p 3 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-20
+m models/sphere.model
+p 3 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-21
+m models/sphere.model
+p 3 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-22
+m models/sphere.model
+p 3 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-23
+m models/sphere.model
+p 3 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-24
+m models/sphere.model
+p 3 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-25
+m models/sphere.model
+p 3 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-26
+m models/sphere.model
+p 3 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-27
+m models/sphere.model
+p 3 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-28
+m models/sphere.model
+p 3 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-29
+m models/sphere.model
+p 3 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-30
+m models/sphere.model
+p 3 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_1-31
+m models/sphere.model
+p 3 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-0
+m models/sphere.model
+p 6 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-1
+m models/sphere.model
+p 6 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-2
+m models/sphere.model
+p 6 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-3
+m models/sphere.model
+p 6 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-4
+m models/sphere.model
+p 6 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-5
+m models/sphere.model
+p 6 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-6
+m models/sphere.model
+p 6 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-7
+m models/sphere.model
+p 6 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-8
+m models/sphere.model
+p 6 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-9
+m models/sphere.model
+p 6 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-10
+m models/sphere.model
+p 6 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-11
+m models/sphere.model
+p 6 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-12
+m models/sphere.model
+p 6 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-13
+m models/sphere.model
+p 6 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-14
+m models/sphere.model
+p 6 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-15
+m models/sphere.model
+p 6 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-16
+m models/sphere.model
+p 6 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-17
+m models/sphere.model
+p 6 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-18
+m models/sphere.model
+p 6 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-19
+m models/sphere.model
+p 6 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-20
+m models/sphere.model
+p 6 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-21
+m models/sphere.model
+p 6 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-22
+m models/sphere.model
+p 6 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-23
+m models/sphere.model
+p 6 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-24
+m models/sphere.model
+p 6 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-25
+m models/sphere.model
+p 6 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-26
+m models/sphere.model
+p 6 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-27
+m models/sphere.model
+p 6 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-28
+m models/sphere.model
+p 6 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-29
+m models/sphere.model
+p 6 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-30
+m models/sphere.model
+p 6 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_2-31
+m models/sphere.model
+p 6 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-0
+m models/sphere.model
+p 9 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-1
+m models/sphere.model
+p 9 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-2
+m models/sphere.model
+p 9 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-3
+m models/sphere.model
+p 9 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-4
+m models/sphere.model
+p 9 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-5
+m models/sphere.model
+p 9 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-6
+m models/sphere.model
+p 9 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-7
+m models/sphere.model
+p 9 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-8
+m models/sphere.model
+p 9 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-9
+m models/sphere.model
+p 9 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-10
+m models/sphere.model
+p 9 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-11
+m models/sphere.model
+p 9 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-12
+m models/sphere.model
+p 9 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-13
+m models/sphere.model
+p 9 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-14
+m models/sphere.model
+p 9 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-15
+m models/sphere.model
+p 9 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-16
+m models/sphere.model
+p 9 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-17
+m models/sphere.model
+p 9 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-18
+m models/sphere.model
+p 9 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-19
+m models/sphere.model
+p 9 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-20
+m models/sphere.model
+p 9 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-21
+m models/sphere.model
+p 9 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-22
+m models/sphere.model
+p 9 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-23
+m models/sphere.model
+p 9 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-24
+m models/sphere.model
+p 9 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-25
+m models/sphere.model
+p 9 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-26
+m models/sphere.model
+p 9 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-27
+m models/sphere.model
+p 9 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-28
+m models/sphere.model
+p 9 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-29
+m models/sphere.model
+p 9 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-30
+m models/sphere.model
+p 9 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_3-31
+m models/sphere.model
+p 9 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-0
+m models/sphere.model
+p 12 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-1
+m models/sphere.model
+p 12 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-2
+m models/sphere.model
+p 12 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-3
+m models/sphere.model
+p 12 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-4
+m models/sphere.model
+p 12 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-5
+m models/sphere.model
+p 12 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-6
+m models/sphere.model
+p 12 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-7
+m models/sphere.model
+p 12 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-8
+m models/sphere.model
+p 12 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-9
+m models/sphere.model
+p 12 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-10
+m models/sphere.model
+p 12 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-11
+m models/sphere.model
+p 12 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-12
+m models/sphere.model
+p 12 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-13
+m models/sphere.model
+p 12 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-14
+m models/sphere.model
+p 12 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-15
+m models/sphere.model
+p 12 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-16
+m models/sphere.model
+p 12 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-17
+m models/sphere.model
+p 12 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-18
+m models/sphere.model
+p 12 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-19
+m models/sphere.model
+p 12 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-20
+m models/sphere.model
+p 12 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-21
+m models/sphere.model
+p 12 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-22
+m models/sphere.model
+p 12 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-23
+m models/sphere.model
+p 12 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-24
+m models/sphere.model
+p 12 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-25
+m models/sphere.model
+p 12 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-26
+m models/sphere.model
+p 12 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-27
+m models/sphere.model
+p 12 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-28
+m models/sphere.model
+p 12 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-29
+m models/sphere.model
+p 12 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-30
+m models/sphere.model
+p 12 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_4-31
+m models/sphere.model
+p 12 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-0
+m models/sphere.model
+p 15 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-1
+m models/sphere.model
+p 15 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-2
+m models/sphere.model
+p 15 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-3
+m models/sphere.model
+p 15 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-4
+m models/sphere.model
+p 15 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-5
+m models/sphere.model
+p 15 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-6
+m models/sphere.model
+p 15 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-7
+m models/sphere.model
+p 15 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-8
+m models/sphere.model
+p 15 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-9
+m models/sphere.model
+p 15 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-10
+m models/sphere.model
+p 15 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-11
+m models/sphere.model
+p 15 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-12
+m models/sphere.model
+p 15 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-13
+m models/sphere.model
+p 15 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-14
+m models/sphere.model
+p 15 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-15
+m models/sphere.model
+p 15 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-16
+m models/sphere.model
+p 15 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-17
+m models/sphere.model
+p 15 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-18
+m models/sphere.model
+p 15 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-19
+m models/sphere.model
+p 15 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-20
+m models/sphere.model
+p 15 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-21
+m models/sphere.model
+p 15 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-22
+m models/sphere.model
+p 15 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-23
+m models/sphere.model
+p 15 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-24
+m models/sphere.model
+p 15 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-25
+m models/sphere.model
+p 15 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-26
+m models/sphere.model
+p 15 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-27
+m models/sphere.model
+p 15 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-28
+m models/sphere.model
+p 15 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-29
+m models/sphere.model
+p 15 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-30
+m models/sphere.model
+p 15 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_5-31
+m models/sphere.model
+p 15 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-0
+m models/sphere.model
+p 18 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-1
+m models/sphere.model
+p 18 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-2
+m models/sphere.model
+p 18 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-3
+m models/sphere.model
+p 18 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-4
+m models/sphere.model
+p 18 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-5
+m models/sphere.model
+p 18 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-6
+m models/sphere.model
+p 18 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-7
+m models/sphere.model
+p 18 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-8
+m models/sphere.model
+p 18 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-9
+m models/sphere.model
+p 18 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-10
+m models/sphere.model
+p 18 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-11
+m models/sphere.model
+p 18 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-12
+m models/sphere.model
+p 18 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-13
+m models/sphere.model
+p 18 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-14
+m models/sphere.model
+p 18 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-15
+m models/sphere.model
+p 18 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-16
+m models/sphere.model
+p 18 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-17
+m models/sphere.model
+p 18 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-18
+m models/sphere.model
+p 18 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-19
+m models/sphere.model
+p 18 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-20
+m models/sphere.model
+p 18 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-21
+m models/sphere.model
+p 18 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-22
+m models/sphere.model
+p 18 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-23
+m models/sphere.model
+p 18 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-24
+m models/sphere.model
+p 18 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-25
+m models/sphere.model
+p 18 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-26
+m models/sphere.model
+p 18 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-27
+m models/sphere.model
+p 18 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-28
+m models/sphere.model
+p 18 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-29
+m models/sphere.model
+p 18 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-30
+m models/sphere.model
+p 18 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_6-31
+m models/sphere.model
+p 18 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-0
+m models/sphere.model
+p 21 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-1
+m models/sphere.model
+p 21 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-2
+m models/sphere.model
+p 21 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-3
+m models/sphere.model
+p 21 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-4
+m models/sphere.model
+p 21 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-5
+m models/sphere.model
+p 21 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-6
+m models/sphere.model
+p 21 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-7
+m models/sphere.model
+p 21 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-8
+m models/sphere.model
+p 21 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-9
+m models/sphere.model
+p 21 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-10
+m models/sphere.model
+p 21 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-11
+m models/sphere.model
+p 21 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-12
+m models/sphere.model
+p 21 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-13
+m models/sphere.model
+p 21 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-14
+m models/sphere.model
+p 21 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-15
+m models/sphere.model
+p 21 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-16
+m models/sphere.model
+p 21 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-17
+m models/sphere.model
+p 21 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-18
+m models/sphere.model
+p 21 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-19
+m models/sphere.model
+p 21 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-20
+m models/sphere.model
+p 21 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-21
+m models/sphere.model
+p 21 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-22
+m models/sphere.model
+p 21 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-23
+m models/sphere.model
+p 21 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-24
+m models/sphere.model
+p 21 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-25
+m models/sphere.model
+p 21 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-26
+m models/sphere.model
+p 21 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-27
+m models/sphere.model
+p 21 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-28
+m models/sphere.model
+p 21 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-29
+m models/sphere.model
+p 21 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-30
+m models/sphere.model
+p 21 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_7-31
+m models/sphere.model
+p 21 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-0
+m models/sphere.model
+p 24 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-1
+m models/sphere.model
+p 24 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-2
+m models/sphere.model
+p 24 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-3
+m models/sphere.model
+p 24 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-4
+m models/sphere.model
+p 24 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-5
+m models/sphere.model
+p 24 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-6
+m models/sphere.model
+p 24 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-7
+m models/sphere.model
+p 24 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-8
+m models/sphere.model
+p 24 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-9
+m models/sphere.model
+p 24 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-10
+m models/sphere.model
+p 24 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-11
+m models/sphere.model
+p 24 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-12
+m models/sphere.model
+p 24 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-13
+m models/sphere.model
+p 24 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-14
+m models/sphere.model
+p 24 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-15
+m models/sphere.model
+p 24 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-16
+m models/sphere.model
+p 24 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-17
+m models/sphere.model
+p 24 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-18
+m models/sphere.model
+p 24 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-19
+m models/sphere.model
+p 24 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-20
+m models/sphere.model
+p 24 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-21
+m models/sphere.model
+p 24 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-22
+m models/sphere.model
+p 24 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-23
+m models/sphere.model
+p 24 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-24
+m models/sphere.model
+p 24 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-25
+m models/sphere.model
+p 24 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-26
+m models/sphere.model
+p 24 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-27
+m models/sphere.model
+p 24 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-28
+m models/sphere.model
+p 24 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-29
+m models/sphere.model
+p 24 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-30
+m models/sphere.model
+p 24 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_8-31
+m models/sphere.model
+p 24 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-0
+m models/sphere.model
+p 27 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-1
+m models/sphere.model
+p 27 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-2
+m models/sphere.model
+p 27 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-3
+m models/sphere.model
+p 27 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-4
+m models/sphere.model
+p 27 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-5
+m models/sphere.model
+p 27 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-6
+m models/sphere.model
+p 27 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-7
+m models/sphere.model
+p 27 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-8
+m models/sphere.model
+p 27 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-9
+m models/sphere.model
+p 27 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-10
+m models/sphere.model
+p 27 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-11
+m models/sphere.model
+p 27 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-12
+m models/sphere.model
+p 27 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-13
+m models/sphere.model
+p 27 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-14
+m models/sphere.model
+p 27 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-15
+m models/sphere.model
+p 27 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-16
+m models/sphere.model
+p 27 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-17
+m models/sphere.model
+p 27 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-18
+m models/sphere.model
+p 27 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-19
+m models/sphere.model
+p 27 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-20
+m models/sphere.model
+p 27 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-21
+m models/sphere.model
+p 27 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-22
+m models/sphere.model
+p 27 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-23
+m models/sphere.model
+p 27 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-24
+m models/sphere.model
+p 27 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-25
+m models/sphere.model
+p 27 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-26
+m models/sphere.model
+p 27 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-27
+m models/sphere.model
+p 27 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-28
+m models/sphere.model
+p 27 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-29
+m models/sphere.model
+p 27 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-30
+m models/sphere.model
+p 27 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_9-31
+m models/sphere.model
+p 27 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-0
+m models/sphere.model
+p 30 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-1
+m models/sphere.model
+p 30 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-2
+m models/sphere.model
+p 30 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-3
+m models/sphere.model
+p 30 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-4
+m models/sphere.model
+p 30 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-5
+m models/sphere.model
+p 30 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-6
+m models/sphere.model
+p 30 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-7
+m models/sphere.model
+p 30 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-8
+m models/sphere.model
+p 30 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-9
+m models/sphere.model
+p 30 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-10
+m models/sphere.model
+p 30 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-11
+m models/sphere.model
+p 30 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-12
+m models/sphere.model
+p 30 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-13
+m models/sphere.model
+p 30 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-14
+m models/sphere.model
+p 30 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-15
+m models/sphere.model
+p 30 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-16
+m models/sphere.model
+p 30 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-17
+m models/sphere.model
+p 30 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-18
+m models/sphere.model
+p 30 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-19
+m models/sphere.model
+p 30 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-20
+m models/sphere.model
+p 30 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-21
+m models/sphere.model
+p 30 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-22
+m models/sphere.model
+p 30 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-23
+m models/sphere.model
+p 30 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-24
+m models/sphere.model
+p 30 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-25
+m models/sphere.model
+p 30 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-26
+m models/sphere.model
+p 30 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-27
+m models/sphere.model
+p 30 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-28
+m models/sphere.model
+p 30 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-29
+m models/sphere.model
+p 30 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-30
+m models/sphere.model
+p 30 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_10-31
+m models/sphere.model
+p 30 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-0
+m models/sphere.model
+p 33 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-1
+m models/sphere.model
+p 33 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-2
+m models/sphere.model
+p 33 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-3
+m models/sphere.model
+p 33 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-4
+m models/sphere.model
+p 33 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-5
+m models/sphere.model
+p 33 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-6
+m models/sphere.model
+p 33 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-7
+m models/sphere.model
+p 33 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-8
+m models/sphere.model
+p 33 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-9
+m models/sphere.model
+p 33 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-10
+m models/sphere.model
+p 33 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-11
+m models/sphere.model
+p 33 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-12
+m models/sphere.model
+p 33 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-13
+m models/sphere.model
+p 33 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-14
+m models/sphere.model
+p 33 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-15
+m models/sphere.model
+p 33 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-16
+m models/sphere.model
+p 33 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-17
+m models/sphere.model
+p 33 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-18
+m models/sphere.model
+p 33 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-19
+m models/sphere.model
+p 33 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-20
+m models/sphere.model
+p 33 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-21
+m models/sphere.model
+p 33 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-22
+m models/sphere.model
+p 33 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-23
+m models/sphere.model
+p 33 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-24
+m models/sphere.model
+p 33 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-25
+m models/sphere.model
+p 33 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-26
+m models/sphere.model
+p 33 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-27
+m models/sphere.model
+p 33 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-28
+m models/sphere.model
+p 33 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-29
+m models/sphere.model
+p 33 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-30
+m models/sphere.model
+p 33 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_11-31
+m models/sphere.model
+p 33 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-0
+m models/sphere.model
+p 36 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-1
+m models/sphere.model
+p 36 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-2
+m models/sphere.model
+p 36 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-3
+m models/sphere.model
+p 36 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-4
+m models/sphere.model
+p 36 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-5
+m models/sphere.model
+p 36 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-6
+m models/sphere.model
+p 36 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-7
+m models/sphere.model
+p 36 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-8
+m models/sphere.model
+p 36 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-9
+m models/sphere.model
+p 36 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-10
+m models/sphere.model
+p 36 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-11
+m models/sphere.model
+p 36 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-12
+m models/sphere.model
+p 36 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-13
+m models/sphere.model
+p 36 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-14
+m models/sphere.model
+p 36 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-15
+m models/sphere.model
+p 36 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-16
+m models/sphere.model
+p 36 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-17
+m models/sphere.model
+p 36 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-18
+m models/sphere.model
+p 36 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-19
+m models/sphere.model
+p 36 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-20
+m models/sphere.model
+p 36 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-21
+m models/sphere.model
+p 36 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-22
+m models/sphere.model
+p 36 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-23
+m models/sphere.model
+p 36 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-24
+m models/sphere.model
+p 36 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-25
+m models/sphere.model
+p 36 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-26
+m models/sphere.model
+p 36 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-27
+m models/sphere.model
+p 36 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-28
+m models/sphere.model
+p 36 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-29
+m models/sphere.model
+p 36 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-30
+m models/sphere.model
+p 36 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_12-31
+m models/sphere.model
+p 36 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-0
+m models/sphere.model
+p 39 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-1
+m models/sphere.model
+p 39 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-2
+m models/sphere.model
+p 39 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-3
+m models/sphere.model
+p 39 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-4
+m models/sphere.model
+p 39 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-5
+m models/sphere.model
+p 39 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-6
+m models/sphere.model
+p 39 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-7
+m models/sphere.model
+p 39 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-8
+m models/sphere.model
+p 39 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-9
+m models/sphere.model
+p 39 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-10
+m models/sphere.model
+p 39 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-11
+m models/sphere.model
+p 39 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-12
+m models/sphere.model
+p 39 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-13
+m models/sphere.model
+p 39 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-14
+m models/sphere.model
+p 39 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-15
+m models/sphere.model
+p 39 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-16
+m models/sphere.model
+p 39 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-17
+m models/sphere.model
+p 39 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-18
+m models/sphere.model
+p 39 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-19
+m models/sphere.model
+p 39 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-20
+m models/sphere.model
+p 39 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-21
+m models/sphere.model
+p 39 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-22
+m models/sphere.model
+p 39 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-23
+m models/sphere.model
+p 39 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-24
+m models/sphere.model
+p 39 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-25
+m models/sphere.model
+p 39 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-26
+m models/sphere.model
+p 39 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-27
+m models/sphere.model
+p 39 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-28
+m models/sphere.model
+p 39 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-29
+m models/sphere.model
+p 39 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-30
+m models/sphere.model
+p 39 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_13-31
+m models/sphere.model
+p 39 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-0
+m models/sphere.model
+p 42 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-1
+m models/sphere.model
+p 42 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-2
+m models/sphere.model
+p 42 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-3
+m models/sphere.model
+p 42 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-4
+m models/sphere.model
+p 42 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-5
+m models/sphere.model
+p 42 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-6
+m models/sphere.model
+p 42 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-7
+m models/sphere.model
+p 42 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-8
+m models/sphere.model
+p 42 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-9
+m models/sphere.model
+p 42 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-10
+m models/sphere.model
+p 42 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-11
+m models/sphere.model
+p 42 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-12
+m models/sphere.model
+p 42 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-13
+m models/sphere.model
+p 42 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-14
+m models/sphere.model
+p 42 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-15
+m models/sphere.model
+p 42 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-16
+m models/sphere.model
+p 42 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-17
+m models/sphere.model
+p 42 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-18
+m models/sphere.model
+p 42 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-19
+m models/sphere.model
+p 42 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-20
+m models/sphere.model
+p 42 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-21
+m models/sphere.model
+p 42 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-22
+m models/sphere.model
+p 42 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-23
+m models/sphere.model
+p 42 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-24
+m models/sphere.model
+p 42 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-25
+m models/sphere.model
+p 42 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-26
+m models/sphere.model
+p 42 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-27
+m models/sphere.model
+p 42 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-28
+m models/sphere.model
+p 42 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-29
+m models/sphere.model
+p 42 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-30
+m models/sphere.model
+p 42 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_14-31
+m models/sphere.model
+p 42 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-0
+m models/sphere.model
+p 45 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-1
+m models/sphere.model
+p 45 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-2
+m models/sphere.model
+p 45 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-3
+m models/sphere.model
+p 45 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-4
+m models/sphere.model
+p 45 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-5
+m models/sphere.model
+p 45 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-6
+m models/sphere.model
+p 45 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-7
+m models/sphere.model
+p 45 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-8
+m models/sphere.model
+p 45 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-9
+m models/sphere.model
+p 45 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-10
+m models/sphere.model
+p 45 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-11
+m models/sphere.model
+p 45 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-12
+m models/sphere.model
+p 45 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-13
+m models/sphere.model
+p 45 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-14
+m models/sphere.model
+p 45 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-15
+m models/sphere.model
+p 45 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-16
+m models/sphere.model
+p 45 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-17
+m models/sphere.model
+p 45 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-18
+m models/sphere.model
+p 45 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-19
+m models/sphere.model
+p 45 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-20
+m models/sphere.model
+p 45 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-21
+m models/sphere.model
+p 45 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-22
+m models/sphere.model
+p 45 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-23
+m models/sphere.model
+p 45 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-24
+m models/sphere.model
+p 45 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-25
+m models/sphere.model
+p 45 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-26
+m models/sphere.model
+p 45 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-27
+m models/sphere.model
+p 45 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-28
+m models/sphere.model
+p 45 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-29
+m models/sphere.model
+p 45 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-30
+m models/sphere.model
+p 45 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_15-31
+m models/sphere.model
+p 45 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-0
+m models/sphere.model
+p 48 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-1
+m models/sphere.model
+p 48 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-2
+m models/sphere.model
+p 48 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-3
+m models/sphere.model
+p 48 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-4
+m models/sphere.model
+p 48 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-5
+m models/sphere.model
+p 48 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-6
+m models/sphere.model
+p 48 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-7
+m models/sphere.model
+p 48 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-8
+m models/sphere.model
+p 48 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-9
+m models/sphere.model
+p 48 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-10
+m models/sphere.model
+p 48 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-11
+m models/sphere.model
+p 48 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-12
+m models/sphere.model
+p 48 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-13
+m models/sphere.model
+p 48 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-14
+m models/sphere.model
+p 48 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-15
+m models/sphere.model
+p 48 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-17
+m models/sphere.model
+p 48 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-18
+m models/sphere.model
+p 48 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-19
+m models/sphere.model
+p 48 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-20
+m models/sphere.model
+p 48 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-21
+m models/sphere.model
+p 48 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-22
+m models/sphere.model
+p 48 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-23
+m models/sphere.model
+p 48 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-24
+m models/sphere.model
+p 48 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-25
+m models/sphere.model
+p 48 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-26
+m models/sphere.model
+p 48 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-27
+m models/sphere.model
+p 48 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-28
+m models/sphere.model
+p 48 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-29
+m models/sphere.model
+p 48 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-30
+m models/sphere.model
+p 48 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_16-31
+m models/sphere.model
+p 48 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-0
+m models/sphere.model
+p 51 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-1
+m models/sphere.model
+p 51 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-2
+m models/sphere.model
+p 51 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-3
+m models/sphere.model
+p 51 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-4
+m models/sphere.model
+p 51 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-5
+m models/sphere.model
+p 51 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-6
+m models/sphere.model
+p 51 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-7
+m models/sphere.model
+p 51 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-8
+m models/sphere.model
+p 51 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-9
+m models/sphere.model
+p 51 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-10
+m models/sphere.model
+p 51 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-11
+m models/sphere.model
+p 51 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-12
+m models/sphere.model
+p 51 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-13
+m models/sphere.model
+p 51 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-14
+m models/sphere.model
+p 51 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-15
+m models/sphere.model
+p 51 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-16
+m models/sphere.model
+p 51 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-17
+m models/sphere.model
+p 51 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-18
+m models/sphere.model
+p 51 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-19
+m models/sphere.model
+p 51 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-20
+m models/sphere.model
+p 51 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-21
+m models/sphere.model
+p 51 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-22
+m models/sphere.model
+p 51 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-23
+m models/sphere.model
+p 51 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-24
+m models/sphere.model
+p 51 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-25
+m models/sphere.model
+p 51 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-26
+m models/sphere.model
+p 51 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-27
+m models/sphere.model
+p 51 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-28
+m models/sphere.model
+p 51 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-29
+m models/sphere.model
+p 51 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-30
+m models/sphere.model
+p 51 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_17-31
+m models/sphere.model
+p 51 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-0
+m models/sphere.model
+p 54 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-1
+m models/sphere.model
+p 54 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-2
+m models/sphere.model
+p 54 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-3
+m models/sphere.model
+p 54 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-4
+m models/sphere.model
+p 54 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-5
+m models/sphere.model
+p 54 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-6
+m models/sphere.model
+p 54 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-7
+m models/sphere.model
+p 54 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-8
+m models/sphere.model
+p 54 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-9
+m models/sphere.model
+p 54 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-10
+m models/sphere.model
+p 54 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-11
+m models/sphere.model
+p 54 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-12
+m models/sphere.model
+p 54 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-13
+m models/sphere.model
+p 54 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-14
+m models/sphere.model
+p 54 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-15
+m models/sphere.model
+p 54 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-16
+m models/sphere.model
+p 54 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-17
+m models/sphere.model
+p 54 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-18
+m models/sphere.model
+p 54 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-19
+m models/sphere.model
+p 54 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-20
+m models/sphere.model
+p 54 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-21
+m models/sphere.model
+p 54 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-22
+m models/sphere.model
+p 54 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-23
+m models/sphere.model
+p 54 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-24
+m models/sphere.model
+p 54 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-25
+m models/sphere.model
+p 54 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-26
+m models/sphere.model
+p 54 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-27
+m models/sphere.model
+p 54 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-28
+m models/sphere.model
+p 54 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-29
+m models/sphere.model
+p 54 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-30
+m models/sphere.model
+p 54 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_18-31
+m models/sphere.model
+p 54 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-0
+m models/sphere.model
+p 57 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-1
+m models/sphere.model
+p 57 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-2
+m models/sphere.model
+p 57 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-3
+m models/sphere.model
+p 57 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-4
+m models/sphere.model
+p 57 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-5
+m models/sphere.model
+p 57 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-6
+m models/sphere.model
+p 57 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-7
+m models/sphere.model
+p 57 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-8
+m models/sphere.model
+p 57 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-9
+m models/sphere.model
+p 57 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-10
+m models/sphere.model
+p 57 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-11
+m models/sphere.model
+p 57 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-12
+m models/sphere.model
+p 57 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-13
+m models/sphere.model
+p 57 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-14
+m models/sphere.model
+p 57 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-15
+m models/sphere.model
+p 57 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-16
+m models/sphere.model
+p 57 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-17
+m models/sphere.model
+p 57 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-18
+m models/sphere.model
+p 57 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-19
+m models/sphere.model
+p 57 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-20
+m models/sphere.model
+p 57 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-21
+m models/sphere.model
+p 57 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-22
+m models/sphere.model
+p 57 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-23
+m models/sphere.model
+p 57 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-24
+m models/sphere.model
+p 57 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-25
+m models/sphere.model
+p 57 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-26
+m models/sphere.model
+p 57 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-27
+m models/sphere.model
+p 57 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-28
+m models/sphere.model
+p 57 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-29
+m models/sphere.model
+p 57 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-30
+m models/sphere.model
+p 57 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_19-31
+m models/sphere.model
+p 57 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-0
+m models/sphere.model
+p 60 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-1
+m models/sphere.model
+p 60 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-2
+m models/sphere.model
+p 60 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-3
+m models/sphere.model
+p 60 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-4
+m models/sphere.model
+p 60 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-5
+m models/sphere.model
+p 60 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-6
+m models/sphere.model
+p 60 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-7
+m models/sphere.model
+p 60 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-8
+m models/sphere.model
+p 60 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-9
+m models/sphere.model
+p 60 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-10
+m models/sphere.model
+p 60 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-11
+m models/sphere.model
+p 60 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-12
+m models/sphere.model
+p 60 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-13
+m models/sphere.model
+p 60 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-14
+m models/sphere.model
+p 60 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-15
+m models/sphere.model
+p 60 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-16
+m models/sphere.model
+p 60 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-17
+m models/sphere.model
+p 60 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-18
+m models/sphere.model
+p 60 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-19
+m models/sphere.model
+p 60 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-20
+m models/sphere.model
+p 60 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-21
+m models/sphere.model
+p 60 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-22
+m models/sphere.model
+p 60 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-23
+m models/sphere.model
+p 60 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-24
+m models/sphere.model
+p 60 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-25
+m models/sphere.model
+p 60 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-26
+m models/sphere.model
+p 60 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-27
+m models/sphere.model
+p 60 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-28
+m models/sphere.model
+p 60 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-29
+m models/sphere.model
+p 60 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-30
+m models/sphere.model
+p 60 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_20-31
+m models/sphere.model
+p 60 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-0
+m models/sphere.model
+p 63 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-1
+m models/sphere.model
+p 63 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-2
+m models/sphere.model
+p 63 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-3
+m models/sphere.model
+p 63 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-4
+m models/sphere.model
+p 63 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-5
+m models/sphere.model
+p 63 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-6
+m models/sphere.model
+p 63 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-7
+m models/sphere.model
+p 63 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-8
+m models/sphere.model
+p 63 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-9
+m models/sphere.model
+p 63 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-10
+m models/sphere.model
+p 63 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-11
+m models/sphere.model
+p 63 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-12
+m models/sphere.model
+p 63 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-13
+m models/sphere.model
+p 63 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-14
+m models/sphere.model
+p 63 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-15
+m models/sphere.model
+p 63 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-16
+m models/sphere.model
+p 63 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-17
+m models/sphere.model
+p 63 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-18
+m models/sphere.model
+p 63 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-19
+m models/sphere.model
+p 63 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-20
+m models/sphere.model
+p 63 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-21
+m models/sphere.model
+p 63 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-22
+m models/sphere.model
+p 63 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-23
+m models/sphere.model
+p 63 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-24
+m models/sphere.model
+p 63 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-25
+m models/sphere.model
+p 63 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-26
+m models/sphere.model
+p 63 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-27
+m models/sphere.model
+p 63 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-28
+m models/sphere.model
+p 63 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-29
+m models/sphere.model
+p 63 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-30
+m models/sphere.model
+p 63 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_21-31
+m models/sphere.model
+p 63 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-0
+m models/sphere.model
+p 66 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-1
+m models/sphere.model
+p 66 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-2
+m models/sphere.model
+p 66 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-3
+m models/sphere.model
+p 66 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-4
+m models/sphere.model
+p 66 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-5
+m models/sphere.model
+p 66 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-6
+m models/sphere.model
+p 66 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-7
+m models/sphere.model
+p 66 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-8
+m models/sphere.model
+p 66 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-9
+m models/sphere.model
+p 66 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-10
+m models/sphere.model
+p 66 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-11
+m models/sphere.model
+p 66 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-12
+m models/sphere.model
+p 66 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-13
+m models/sphere.model
+p 66 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-14
+m models/sphere.model
+p 66 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-15
+m models/sphere.model
+p 66 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-16
+m models/sphere.model
+p 66 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-17
+m models/sphere.model
+p 66 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-18
+m models/sphere.model
+p 66 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-19
+m models/sphere.model
+p 66 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-20
+m models/sphere.model
+p 66 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-21
+m models/sphere.model
+p 66 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-22
+m models/sphere.model
+p 66 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-23
+m models/sphere.model
+p 66 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-24
+m models/sphere.model
+p 66 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-25
+m models/sphere.model
+p 66 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-26
+m models/sphere.model
+p 66 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-27
+m models/sphere.model
+p 66 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-28
+m models/sphere.model
+p 66 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-29
+m models/sphere.model
+p 66 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-30
+m models/sphere.model
+p 66 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_22-31
+m models/sphere.model
+p 66 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-0
+m models/sphere.model
+p 69 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-1
+m models/sphere.model
+p 69 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-2
+m models/sphere.model
+p 69 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-3
+m models/sphere.model
+p 69 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-4
+m models/sphere.model
+p 69 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-5
+m models/sphere.model
+p 69 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-6
+m models/sphere.model
+p 69 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-7
+m models/sphere.model
+p 69 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-8
+m models/sphere.model
+p 69 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-9
+m models/sphere.model
+p 69 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-10
+m models/sphere.model
+p 69 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-11
+m models/sphere.model
+p 69 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-12
+m models/sphere.model
+p 69 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-13
+m models/sphere.model
+p 69 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-14
+m models/sphere.model
+p 69 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-15
+m models/sphere.model
+p 69 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-16
+m models/sphere.model
+p 69 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-17
+m models/sphere.model
+p 69 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-18
+m models/sphere.model
+p 69 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-19
+m models/sphere.model
+p 69 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-20
+m models/sphere.model
+p 69 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-21
+m models/sphere.model
+p 69 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-22
+m models/sphere.model
+p 69 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-23
+m models/sphere.model
+p 69 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-24
+m models/sphere.model
+p 69 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-25
+m models/sphere.model
+p 69 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-26
+m models/sphere.model
+p 69 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-27
+m models/sphere.model
+p 69 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-28
+m models/sphere.model
+p 69 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-29
+m models/sphere.model
+p 69 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-30
+m models/sphere.model
+p 69 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_23-31
+m models/sphere.model
+p 69 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-0
+m models/sphere.model
+p 72 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-1
+m models/sphere.model
+p 72 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-2
+m models/sphere.model
+p 72 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-3
+m models/sphere.model
+p 72 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-4
+m models/sphere.model
+p 72 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-5
+m models/sphere.model
+p 72 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-6
+m models/sphere.model
+p 72 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-7
+m models/sphere.model
+p 72 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-8
+m models/sphere.model
+p 72 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-9
+m models/sphere.model
+p 72 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-10
+m models/sphere.model
+p 72 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-11
+m models/sphere.model
+p 72 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-12
+m models/sphere.model
+p 72 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-13
+m models/sphere.model
+p 72 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-14
+m models/sphere.model
+p 72 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-15
+m models/sphere.model
+p 72 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-16
+m models/sphere.model
+p 72 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-17
+m models/sphere.model
+p 72 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-18
+m models/sphere.model
+p 72 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-19
+m models/sphere.model
+p 72 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-20
+m models/sphere.model
+p 72 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-21
+m models/sphere.model
+p 72 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-22
+m models/sphere.model
+p 72 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-23
+m models/sphere.model
+p 72 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-24
+m models/sphere.model
+p 72 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-25
+m models/sphere.model
+p 72 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-26
+m models/sphere.model
+p 72 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-27
+m models/sphere.model
+p 72 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-28
+m models/sphere.model
+p 72 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-29
+m models/sphere.model
+p 72 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-30
+m models/sphere.model
+p 72 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_24-31
+m models/sphere.model
+p 72 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-0
+m models/sphere.model
+p 75 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-1
+m models/sphere.model
+p 75 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-2
+m models/sphere.model
+p 75 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-3
+m models/sphere.model
+p 75 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-4
+m models/sphere.model
+p 75 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-5
+m models/sphere.model
+p 75 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-6
+m models/sphere.model
+p 75 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-7
+m models/sphere.model
+p 75 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-8
+m models/sphere.model
+p 75 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-9
+m models/sphere.model
+p 75 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-10
+m models/sphere.model
+p 75 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-11
+m models/sphere.model
+p 75 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-12
+m models/sphere.model
+p 75 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-13
+m models/sphere.model
+p 75 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-14
+m models/sphere.model
+p 75 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-15
+m models/sphere.model
+p 75 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-16
+m models/sphere.model
+p 75 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-17
+m models/sphere.model
+p 75 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-18
+m models/sphere.model
+p 75 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-19
+m models/sphere.model
+p 75 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-20
+m models/sphere.model
+p 75 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-21
+m models/sphere.model
+p 75 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-22
+m models/sphere.model
+p 75 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-23
+m models/sphere.model
+p 75 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-24
+m models/sphere.model
+p 75 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-25
+m models/sphere.model
+p 75 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-26
+m models/sphere.model
+p 75 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-27
+m models/sphere.model
+p 75 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-28
+m models/sphere.model
+p 75 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-29
+m models/sphere.model
+p 75 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-30
+m models/sphere.model
+p 75 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_25-31
+m models/sphere.model
+p 75 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-0
+m models/sphere.model
+p 78 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-1
+m models/sphere.model
+p 78 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-2
+m models/sphere.model
+p 78 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-3
+m models/sphere.model
+p 78 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-4
+m models/sphere.model
+p 78 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-5
+m models/sphere.model
+p 78 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-6
+m models/sphere.model
+p 78 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-7
+m models/sphere.model
+p 78 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-8
+m models/sphere.model
+p 78 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-9
+m models/sphere.model
+p 78 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-10
+m models/sphere.model
+p 78 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-11
+m models/sphere.model
+p 78 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-12
+m models/sphere.model
+p 78 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-13
+m models/sphere.model
+p 78 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-14
+m models/sphere.model
+p 78 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-15
+m models/sphere.model
+p 78 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-16
+m models/sphere.model
+p 78 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-17
+m models/sphere.model
+p 78 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-18
+m models/sphere.model
+p 78 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-19
+m models/sphere.model
+p 78 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-20
+m models/sphere.model
+p 78 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-21
+m models/sphere.model
+p 78 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-22
+m models/sphere.model
+p 78 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-23
+m models/sphere.model
+p 78 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-24
+m models/sphere.model
+p 78 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-25
+m models/sphere.model
+p 78 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-26
+m models/sphere.model
+p 78 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-27
+m models/sphere.model
+p 78 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-28
+m models/sphere.model
+p 78 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-29
+m models/sphere.model
+p 78 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-30
+m models/sphere.model
+p 78 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_26-31
+m models/sphere.model
+p 78 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-0
+m models/sphere.model
+p 81 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-1
+m models/sphere.model
+p 81 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-2
+m models/sphere.model
+p 81 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-3
+m models/sphere.model
+p 81 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-4
+m models/sphere.model
+p 81 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-5
+m models/sphere.model
+p 81 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-6
+m models/sphere.model
+p 81 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-7
+m models/sphere.model
+p 81 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-8
+m models/sphere.model
+p 81 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-9
+m models/sphere.model
+p 81 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-10
+m models/sphere.model
+p 81 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-11
+m models/sphere.model
+p 81 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-12
+m models/sphere.model
+p 81 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-13
+m models/sphere.model
+p 81 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-14
+m models/sphere.model
+p 81 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-15
+m models/sphere.model
+p 81 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-16
+m models/sphere.model
+p 81 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-17
+m models/sphere.model
+p 81 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-18
+m models/sphere.model
+p 81 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-19
+m models/sphere.model
+p 81 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-20
+m models/sphere.model
+p 81 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-21
+m models/sphere.model
+p 81 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-22
+m models/sphere.model
+p 81 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-23
+m models/sphere.model
+p 81 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-24
+m models/sphere.model
+p 81 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-25
+m models/sphere.model
+p 81 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-26
+m models/sphere.model
+p 81 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-27
+m models/sphere.model
+p 81 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-28
+m models/sphere.model
+p 81 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-29
+m models/sphere.model
+p 81 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-30
+m models/sphere.model
+p 81 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_27-31
+m models/sphere.model
+p 81 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-0
+m models/sphere.model
+p 84 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-1
+m models/sphere.model
+p 84 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-2
+m models/sphere.model
+p 84 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-3
+m models/sphere.model
+p 84 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-4
+m models/sphere.model
+p 84 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-5
+m models/sphere.model
+p 84 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-6
+m models/sphere.model
+p 84 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-7
+m models/sphere.model
+p 84 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-8
+m models/sphere.model
+p 84 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-9
+m models/sphere.model
+p 84 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-10
+m models/sphere.model
+p 84 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-11
+m models/sphere.model
+p 84 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-12
+m models/sphere.model
+p 84 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-13
+m models/sphere.model
+p 84 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-14
+m models/sphere.model
+p 84 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-15
+m models/sphere.model
+p 84 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-16
+m models/sphere.model
+p 84 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-17
+m models/sphere.model
+p 84 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-18
+m models/sphere.model
+p 84 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-19
+m models/sphere.model
+p 84 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-20
+m models/sphere.model
+p 84 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-21
+m models/sphere.model
+p 84 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-22
+m models/sphere.model
+p 84 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-23
+m models/sphere.model
+p 84 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-24
+m models/sphere.model
+p 84 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-25
+m models/sphere.model
+p 84 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-26
+m models/sphere.model
+p 84 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-27
+m models/sphere.model
+p 84 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-28
+m models/sphere.model
+p 84 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-29
+m models/sphere.model
+p 84 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-30
+m models/sphere.model
+p 84 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_28-31
+m models/sphere.model
+p 84 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-0
+m models/sphere.model
+p 87 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-1
+m models/sphere.model
+p 87 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-2
+m models/sphere.model
+p 87 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-3
+m models/sphere.model
+p 87 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-4
+m models/sphere.model
+p 87 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-5
+m models/sphere.model
+p 87 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-6
+m models/sphere.model
+p 87 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-7
+m models/sphere.model
+p 87 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-8
+m models/sphere.model
+p 87 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-9
+m models/sphere.model
+p 87 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-10
+m models/sphere.model
+p 87 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-11
+m models/sphere.model
+p 87 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-12
+m models/sphere.model
+p 87 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-13
+m models/sphere.model
+p 87 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-14
+m models/sphere.model
+p 87 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-15
+m models/sphere.model
+p 87 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-16
+m models/sphere.model
+p 87 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-17
+m models/sphere.model
+p 87 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-18
+m models/sphere.model
+p 87 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-19
+m models/sphere.model
+p 87 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-20
+m models/sphere.model
+p 87 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-21
+m models/sphere.model
+p 87 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-22
+m models/sphere.model
+p 87 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-23
+m models/sphere.model
+p 87 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-24
+m models/sphere.model
+p 87 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-25
+m models/sphere.model
+p 87 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-26
+m models/sphere.model
+p 87 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-27
+m models/sphere.model
+p 87 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-28
+m models/sphere.model
+p 87 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-29
+m models/sphere.model
+p 87 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-30
+m models/sphere.model
+p 87 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_29-31
+m models/sphere.model
+p 87 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-0
+m models/sphere.model
+p 90 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-1
+m models/sphere.model
+p 90 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-2
+m models/sphere.model
+p 90 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-3
+m models/sphere.model
+p 90 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-4
+m models/sphere.model
+p 90 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-5
+m models/sphere.model
+p 90 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-6
+m models/sphere.model
+p 90 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-7
+m models/sphere.model
+p 90 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-8
+m models/sphere.model
+p 90 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-9
+m models/sphere.model
+p 90 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-10
+m models/sphere.model
+p 90 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-11
+m models/sphere.model
+p 90 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-12
+m models/sphere.model
+p 90 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-13
+m models/sphere.model
+p 90 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-14
+m models/sphere.model
+p 90 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-15
+m models/sphere.model
+p 90 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-16
+m models/sphere.model
+p 90 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-17
+m models/sphere.model
+p 90 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-18
+m models/sphere.model
+p 90 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-19
+m models/sphere.model
+p 90 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-20
+m models/sphere.model
+p 90 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-21
+m models/sphere.model
+p 90 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-22
+m models/sphere.model
+p 90 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-23
+m models/sphere.model
+p 90 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-24
+m models/sphere.model
+p 90 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-25
+m models/sphere.model
+p 90 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-26
+m models/sphere.model
+p 90 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-27
+m models/sphere.model
+p 90 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-28
+m models/sphere.model
+p 90 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-29
+m models/sphere.model
+p 90 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-30
+m models/sphere.model
+p 90 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_30-31
+m models/sphere.model
+p 90 93 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-0
+m models/sphere.model
+p 93 0 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-1
+m models/sphere.model
+p 93 3 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-2
+m models/sphere.model
+p 93 6 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-3
+m models/sphere.model
+p 93 9 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-4
+m models/sphere.model
+p 93 12 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-5
+m models/sphere.model
+p 93 15 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-6
+m models/sphere.model
+p 93 18 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-7
+m models/sphere.model
+p 93 21 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-8
+m models/sphere.model
+p 93 24 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-9
+m models/sphere.model
+p 93 27 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-10
+m models/sphere.model
+p 93 30 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-11
+m models/sphere.model
+p 93 33 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-12
+m models/sphere.model
+p 93 36 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-13
+m models/sphere.model
+p 93 39 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-14
+m models/sphere.model
+p 93 42 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-15
+m models/sphere.model
+p 93 45 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-16
+m models/sphere.model
+p 93 48 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-17
+m models/sphere.model
+p 93 51 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-18
+m models/sphere.model
+p 93 54 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-19
+m models/sphere.model
+p 93 57 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-20
+m models/sphere.model
+p 93 60 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-21
+m models/sphere.model
+p 93 63 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-22
+m models/sphere.model
+p 93 66 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-23
+m models/sphere.model
+p 93 69 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-24
+m models/sphere.model
+p 93 72 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-25
+m models/sphere.model
+p 93 75 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-26
+m models/sphere.model
+p 93 78 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-27
+m models/sphere.model
+p 93 81 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-28
+m models/sphere.model
+p 93 84 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-29
+m models/sphere.model
+p 93 87 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-30
+m models/sphere.model
+p 93 90 0
+l physics
+collider mesh meshes/icosphere.obj
+
+e Sphere_31-31
+m models/sphere.model
+p 93 93 0
+l physics
+collider mesh meshes/icosphere.obj

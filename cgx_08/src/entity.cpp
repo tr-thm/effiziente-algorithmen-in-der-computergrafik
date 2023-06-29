@@ -31,10 +31,12 @@ void Entity::setModel(std::string model)
 {
     this->model = model;
 }
+
 void Entity::setPosition(Vector3 position)
 {
     this->position = position;
 }
+
 void Entity::setRotation(Quaternion rotation)
 {
     this->rotation = rotation;

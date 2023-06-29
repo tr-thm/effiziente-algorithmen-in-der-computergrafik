@@ -1,0 +1,45 @@
+{
+    "about": {
+        "fileType": "Redvery Journal",
+        "moreInfo": "https://www.redvery.com/journal/"
+    },
+    "meta": {},
+    "blocks": [
+        {
+            "type": "h",
+            "content": "Computergrafik: Effiziente Algorithmen 10",
+            "uid": "WxYe79b9hUar1E58TLZAnAYvYmYlluw4"
+        },
+        {
+            "type": "p",
+            "content": "Ziel dieses Kapitels ist es eine exakte Mesh-basierte Kollisionserkennung zu implementieren und Ihre Engine zu finalisieren.",
+            "uid": "1ZCtyr1rrfz6J5jUNt7ZNYNnpflYW6FR"
+        },
+        {
+            "type": "h2",
+            "content": "Aufgaben",
+            "uid": "l7VINZB2V0OIfxf5uLzNM5WcAjNww95Z"
+        },
+        {
+            "type": "p",
+            "content": "**10.1**: Erzeugen Sie sich ein Projekt basierend auf Kapitel 9. Sie können ebenfalls alle Ihre eigenen Anpassungen der vorherigen Kapitel mit übernehmen. Sie entscheiden nun selbst welche Funktionen Ihre Engine haben soll. Im Ordner von Kapitel 10 auf Github finden Sie Szenen und Modelle die Ihnen bei der folgenden Aufgabe helfen können.",
+            "uid": "zd3yHX4vPmwdg9ajFSXsPNmwz3gVy3yn"
+        },
+        {
+            "type": "p",
+            "content": "**10.2**: Implementieren Sie den GJK Algorithmus in der `Collider` Klasse um eine exakte Mesh-basierte Kollisionserkennung konvexer Modelle zu realisieren.",
+            "uid": "L0eWmkWr4D735zSB0zqnBE1aAtzGKGqk"
+        },
+        {
+            "type": "ul",
+            "content": "Die `TODO` Anweisungen in der Collider Klasse können Ihnen helfen.\nDas Laden der .obj Datei gibt es an anderer Stelle schon. Auch das Caching der Ressourcen. Kopieren Sie was Sie brauchen.\nEin guter Einstieg ist es damit zu beginnen den Radius aus der Punktmenge zu bestimmen. Dann sollte schonmal alles so weiter funktionieren wie bisher ohne dass Sie an diversen Stellen Anpassungen vornehmen müssen.\nBeim Entwickeln Ihrer Hilfsmethode zur Bestimmung des nächsten Vertex können Sie zu Anfang auch auf die Kugel zurückgreifen. Die Implementierung ist trivial und Sie sollten sehen ob es funktioniert.",
+            "uid": "Wr6D2c40zqeJvIY4Qgk6jlKUu6LF8gvM"
+        },
+        {
+            "type": "p",
+            "content": "**10.3**: Überlegen Sie sich wie die den GJK Algorithmus anschaulich erklären können.",
+            "uid": "MUr0HazDXuhK96yfsO7tyqOe9RvEb9Ie"
+        }
+    ],
+    "files": {}
+}
