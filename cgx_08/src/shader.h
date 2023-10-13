@@ -43,7 +43,7 @@ class Shader
             int Diffuse;
             int NormalMap;
             int Roughness;
-            int CubeMap;
+            int Skybox;
             int AR;
             int NOM;
             int PMDG;

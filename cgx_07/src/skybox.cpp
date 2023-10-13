@@ -26,7 +26,7 @@ Skybox::Skybox(std::string filename)
 {
     this->mesh = Mesh::acquire("meshes/cubemap.obj");
     this->shader = Shader::acquire("shaders/vertex_shader_skybox.glsl", "shaders/fragment_shader_skybox.glsl");
-    this->textures.CubeMap = CubeMap::acquire(filename);
+    this->textures.Skybox = CubeMap::acquire(filename);
 }
 
 void Skybox::render()
@@ -37,7 +37,7 @@ void Skybox::render()
     shader->setMatrix(shader->vars.ViewMatrix, Camera::getViewMatrix(true));
     shader->setMatrix(shader->vars.WorldMatrix, worldMatrix);
 
-    shader->setTexture(shader->vars.CubeMap, textures.CubeMap);
+    shader->setTexture(shader->vars.Skybox, textures.Skybox);
     
     mesh->draw();
 }

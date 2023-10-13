@@ -3,10 +3,10 @@ out vec4 FragColor;
 
 in vec3 TexCoord;
 
-uniform samplerCube CubeMap;
+uniform samplerCube Skybox;
 
 void main()
 {
-    FragColor = texture(CubeMap, TexCoord);
+    FragColor = texture(Skybox, TexCoord);
     gl_FragDepth = 0.9999998;
 }

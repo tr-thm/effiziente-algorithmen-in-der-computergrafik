@@ -42,7 +42,7 @@ class Shader
             int Diffuse;
             int NormalMap;
             int Roughness;
-            int CubeMap;
+            int Skybox;
         } vars;
         static Shader *acquire(std::string vertexShaderFile, std::string fragmentShaderFile);
         static void release(Shader* shader);

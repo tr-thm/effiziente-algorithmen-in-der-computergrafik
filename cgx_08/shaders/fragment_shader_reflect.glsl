@@ -11,7 +11,7 @@ uniform sampler2D Diffuse;
 uniform sampler2D Roughness;
 uniform sampler2D NormalMap;
 
-uniform samplerCube CubeMap;
+uniform samplerCube Skybox;
 
 void main()
 {
@@ -21,5 +21,5 @@ void main()
     vec3 viewDir = normalize(VertPos - CameraPosObjSpc);
     vec3 reflectDir = reflect(viewDir, normal);
 
-    FragColor = vec4(texture(CubeMap, reflectDir).rgb, 1.0);
+    FragColor = vec4(texture(Skybox, reflectDir).rgb, 1.0);
 }

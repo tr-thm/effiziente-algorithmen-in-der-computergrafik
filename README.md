@@ -1,4 +1,4 @@
-# Effiziente Algortihmen in der Computergrafik
+# Effiziente Algorithmen in der Computergrafik
 
 Dieses Repository enthält den Code der Vorlesung "Effiziente Algorithmen in der Computergrafik" an der Technischen Hochschule Mittelhessen.
 

@@ -63,7 +63,7 @@ Shader::Shader(std::string vertexShaderFile, std::string fragmentShaderFile)
         glGetUniformLocation(shaderProgram, "Diffuse"),
         glGetUniformLocation(shaderProgram, "NormalMap"),
         glGetUniformLocation(shaderProgram, "Roughness"),
-        glGetUniformLocation(shaderProgram, "CubeMap")
+        glGetUniformLocation(shaderProgram, "Skybox")
     };
 
     glDeleteShader(vertexShader);
@@ -110,7 +110,7 @@ void Shader::setTexture(int location, Texture *texture)
         glActiveTexture(GL_TEXTURE2);
         glBindTexture(GL_TEXTURE_2D, texture->getId());
     }
-    else if (location == vars.CubeMap)
+    else if (location == vars.Skybox)
     {
         glUniform1i(location, 3);
         glActiveTexture(GL_TEXTURE3);

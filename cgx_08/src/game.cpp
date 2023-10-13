@@ -73,7 +73,7 @@ void Game::loop(const double &time)
             {
                 std::cout << "Loading main scene..." << std::endl;
                 delete scene;
-                scene = new Scene("scenes/main.scene");
+                scene = new Scene("scenes/eve.scene");
             }
             splash++;
         }

@@ -56,9 +56,9 @@ Model::Model(std::string filename)
             {
                 textures.Roughness = Texture::acquire(filename);
             }
-            else if (slot == "CubeMap")
+            else if (slot == "Skybox")
             {
-                textures.CubeMap = CubeMap::acquire(filename);
+                textures.Skybox = CubeMap::acquire(filename);
             }
             else if (slot == "AR")
             {
@@ -94,7 +94,7 @@ void Model::render(Vector3 sunLight)
     shader->setTexture(shader->vars.NOM, textures.NOM);
     shader->setTexture(shader->vars.PMDG, textures.PMDG);
 
-    shader->setTexture(shader->vars.CubeMap, textures.CubeMap);
+    shader->setTexture(shader->vars.Skybox, textures.Skybox);
     
     mesh->draw();
 }
@@ -122,7 +122,7 @@ Model::~Model()
     Texture::release(textures.Diffuse);
     Texture::release(textures.NormalMap);
     Texture::release(textures.Roughness);
-    CubeMap::release(textures.CubeMap);
+    CubeMap::release(textures.Skybox);
     Texture::release(textures.AR);
     Texture::release(textures.NOM);
     Texture::release(textures.PMDG);

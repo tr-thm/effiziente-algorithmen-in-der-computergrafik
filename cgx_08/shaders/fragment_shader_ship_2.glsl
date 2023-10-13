@@ -77,6 +77,12 @@ void main()
     //add glow
     color = mix(color, color_glow, glow);
 
+    //calculate reflection
+    vec3 reflectDirTangent = reflect(-viewDir, normal);
+    vec3 reflectDir = normalize(fs_in.TBN * reflectDirTangent);
+    vec3 reflectColor = texture(Skybox, reflectDir).rgb;
+    color += reflectColor * roughness * 0.5;
+
     // calculate specular lighting
     vec3 halfwayDir = normalize(lightDir + viewDir);  
     float specularIntensity = pow(max(dot(normal, halfwayDir), 0.0), 32.0) * roughness;

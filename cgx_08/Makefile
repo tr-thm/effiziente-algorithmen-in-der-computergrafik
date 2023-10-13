@@ -12,8 +12,8 @@ else ifeq ($(findstring Darwin,$(UNAME)),Darwin)
 else ifeq ($(findstring Linux,$(UNAME)),Linux)
 	INC = -I../libraries/glad/include
 	LIB = 
-	LNK = -lglfw -lrt -lm -ldl -lGL
-	OPT =
+	LNK = -lglfw -lrt -lm -ldl -lGL -pthread
+	OPT = -std=c++20
 endif
 
 bin/engine: obj/main.o obj/graphics.o obj/window.o obj/game.o obj/shader.o obj/mesh.o obj/texture.o obj/filereader.o obj/entity.o obj/model.o obj/scene.o obj/matrix.o obj/vector2.o obj/vector3.o obj/vertex.o obj/quaternion.o obj/camera.o obj/logic.o obj/threadpool.o obj/cubemap.o obj/skybox.o obj/sun.o obj/lensflare.o | bin

@@ -17,6 +17,26 @@
         },
         {
             "type": "h2",
+            "content": "GJK Algorithmus",
+            "uid": "OWGbRUo7OES8lYyBFLixxknKv1dnUgL1"
+        },
+        {
+            "type": "p",
+            "content": "[Wikipedia - Gilbert–Johnson–Keerthi distance algorithm](https://en.wikipedia.org/wiki/Gilbert–Johnson–Keerthi_distance_algorithm)",
+            "uid": "fAesaaRcAePtcU1kHcijPIQIMsFY49qp"
+        },
+        {
+            "type": "p",
+            "content": "[Video: Casey Muratori - Implementing GJK - 2006](https://www.youtube.com/watch?v=Qupqu1xe7Io)",
+            "uid": "jPPCpzrwOLy9YjGwnpeRkkxm2aUlYsjb"
+        },
+        {
+            "type": "p",
+            "content": "[Video: Casey Muratori - Papers I have loved - 2016](https://youtu.be/SDS5gLSiLg0?t=2731)",
+            "uid": "z9lSxNOr7iWNQPGL5JjsvcCt0cCzOJJH"
+        },
+        {
+            "type": "h2",
             "content": "Aufgaben",
             "uid": "l7VINZB2V0OIfxf5uLzNM5WcAjNww95Z"
         },
@@ -37,7 +57,7 @@
         },
         {
             "type": "p",
-            "content": "**10.3**: Überlegen Sie sich wie die den GJK Algorithmus anschaulich erklären können.",
+            "content": "**10.3**: Überlegen Sie sich wie Sie den GJK Algorithmus anschaulich erklären können.",
             "uid": "MUr0HazDXuhK96yfsO7tyqOe9RvEb9Ie"
         }
     ],

@@ -47,6 +47,6 @@ class Model
             Texture *Diffuse = nullptr;
             Texture *NormalMap = nullptr;
             Texture *Roughness = nullptr;
-            CubeMap *CubeMap = nullptr;
+            CubeMap *Skybox = nullptr;
         } textures;
 };

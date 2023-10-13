@@ -14,7 +14,7 @@ uniform sampler2D AR;
 uniform sampler2D NOM;
 uniform sampler2D PMDG;
 
-uniform samplerCube CubeMap;
+uniform samplerCube Skybox;
 
 void main()
 {           
